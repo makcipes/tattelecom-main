@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Black.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-BlackItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Bold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-BoldItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraBold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraBoldItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraLight.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraLightItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Heavy.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-HeavyItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Italic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Light.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-LightItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Medium.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-MediumItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Regular.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Thin.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ThinItalic.otf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Black.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Black.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BlackItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BlackItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Bold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BoldItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBoldItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Heavy.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Heavy.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-HeavyItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-HeavyItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Light.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Light.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-LightItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-LightItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Medium.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-MediumItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-MediumItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-RegularItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-RegularItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBoldItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Thin.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Thin.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ThinItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ThinItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLight.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLight.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLightItalic.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLightItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/control-arrow.png" afterPath="$PROJECT_DIR$/img/control-arrow.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,8 +21,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="781" column="23" lean-forward="false" selection-start-line="781" selection-start-column="23" selection-end-line="781" selection-end-column="23" />
+            <state relative-caret-position="214">
+              <caret line="2068" column="25" lean-forward="false" selection-start-line="2068" selection-start-column="25" selection-end-line="2068" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -90,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="567" column="0" lean-forward="false" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+            <state relative-caret-position="-24">
+              <caret line="600" column="0" lean-forward="true" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,12 +156,27 @@
       <option name="presentableId" value="Default" />
       <updated>1518267411278</updated>
       <workItem from="1518267412744" duration="130000" />
-      <workItem from="1518427752709" duration="9504000" />
+      <workItem from="1518427752709" duration="10533000" />
     </task>
+    <task id="LOCAL-00001" summary="index fix">
+      <created>1518442087866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518442087866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="index fix">
+      <created>1518443061825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518443061825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9634000" />
+    <option name="totallyTimeSpent" value="10663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,13 +189,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -259,6 +216,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="index fix" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -266,16 +227,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="567" column="0" lean-forward="false" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+        <state relative-caret-position="-24">
+          <caret line="600" column="0" lean-forward="true" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="781" column="23" lean-forward="false" selection-start-line="781" selection-start-column="23" selection-end-line="781" selection-end-column="23" />
+        <state relative-caret-position="214">
+          <caret line="2068" column="25" lean-forward="false" selection-start-line="2068" selection-start-column="25" selection-end-line="2068" selection-end-column="25" />
           <folding />
         </state>
       </provider>
