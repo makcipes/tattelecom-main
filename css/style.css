@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'Gilroy Regular';
-    src: url(../fonts/Gilroy-Regular.ttf);
+    font-family: 'TTNorms Regular';
+    src: url(../fonts/TT_Norms/TTNorms-Regular.otf);
 }
 @font-face {
-    font-family: 'Gilroy Medium';
-    src: url(../fonts/Gilroy-Medium.ttf);
+    font-family: 'TTNorms Medium';
+    src: url(../fonts/TT_Norms/TTNorms-Medium.otf);
 }
 @font-face {
-    font-family: 'Gilroy SemiBold';
-    src: url(../fonts/Gilroy-SemiBold.ttf);
+    font-family: 'TTNorms SemiBold';
+    src: url(../fonts/TT_Norms/TTNorms-Bold.otf);
 }
 @font-face {
-    font-family: 'Gilroy Light';
-    src: url(../fonts/Gilroy-Light.ttf);
+    font-family: 'TTNorms Light';
+    src: url(../fonts/TT_Norms/TTNorms-Light.otf);
 }
 
 * {
@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 html {
-    font-family: 'Gilroy Regular', sans-serif;
+    font-family: 'TTNorms Regular', sans-serif;
 }
 a {
     text-decoration: none;
@@ -30,7 +30,7 @@ a {
 }
 
 h2 {
-    font-family:'Gilroy Regular' !important;
+    font-family:'TTNorms Regular' !important;
     font-weight:200 !important;
 }
 .bx-wrapper {
@@ -115,7 +115,7 @@ h2 {
 
 #main-menu .content .column a {
     display:block;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     font-size:1.14583vw;
     letter-spacing:0.02500em;
     margin-bottom:1vw;
@@ -123,7 +123,7 @@ h2 {
 
 #main-menu .content .column a.column-header {
     font-size:1.82292vw;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     margin-bottom:2vw;
 }
 
@@ -145,7 +145,7 @@ h2 {
 
 #main-menu #menu-close-button span {
     font-size:1.04167vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.05000em;
     text-transform: uppercase;
 }
@@ -239,7 +239,7 @@ header > div.left > *:hover, header > div.right > *:hover {
     -ms-flex-pack: center;
     justify-content: center;
     letter-spacing: 0.05em;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
 }
 header > div.right > *.connect {
     margin-left: 31px;
@@ -337,13 +337,20 @@ header > div.right > *.connect {
 }
 
 .top-menu .right .dropdown {
-    height:100%;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-        -ms-flex-align:center;
-            align-items:center;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 17px;
+}
+.top-menu .right a{
+    text-transform: uppercase;
+    font-family: "TTNorms Medium";
+    color: #1c1c1c;
+
 }
 
 #city-select-menu {
@@ -393,7 +400,7 @@ header > div.right > *.connect {
     cursor:pointer;
     font-size:0.93750vw;
     text-transform: uppercase;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -433,7 +440,7 @@ header > div.right > *.connect {
 }
 
 #city-select-menu .selection-block .left .column:first-of-type a:nth-of-type(-n+7) {
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     margin-bottom:0.82vw;
 }
 
@@ -462,7 +469,7 @@ header > div.right > *.connect {
     border:2px solid #c8c8c8;
     font-size:0.93750vw;
     color:#1c1c1c;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -589,7 +596,7 @@ font-weight:100;    font-size: 58px;
     color: #1c1c1c;
     width: 294px;
     height: 65px;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     font-size: 18px;
     letter-spacing: 0.05em;
     padding-left: 30px;
@@ -598,7 +605,7 @@ font-weight:100;    font-size: 58px;
 
 .control-arrows {
     font-size: 20px;
-    font-family: 'Gilroy Semibold';
+    font-family: 'TTNorms Semibold';
     letter-spacing: -2px;
 }
 
@@ -608,10 +615,10 @@ font-weight:100;    font-size: 58px;
     position: absolute;
 }
 .control-arrows img.arrow-left {
-    margin-right: 3px;
+    margin-right: 10px;
 }
 .control-arrows img.arrow-right {
-    margin-left: 3px;
+    margin-left: 10px;
 }
 .control-arrows img:hover {
     cursor: pointer;
@@ -625,9 +632,13 @@ font-weight:100;    font-size: 58px;
     padding: 0% 5.5%;
     margin-bottom: 50px;
 }
+#service-actions .button{
+    border: 2px solid!important;
+}
 #service-actions .border-wrapper {
     border-bottom: 2px solid #d2d2d2;
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 #service-actions .border-wrapper:after {
     display: block;
@@ -645,7 +656,7 @@ font-weight:100;    font-size: 58px;
 #service-actions .service-action:nth-of-type(2) {
     border-left: 2px solid #d2d2d2;
     border-right: 2px solid #d2d2d2;
-    width: 34.6%;
+    width: 32.6%;
     padding: 0% 3%;
 }
 #service-actions .service-action:nth-of-type(3) {
@@ -670,7 +681,7 @@ font-weight:100;    font-size: 58px;
     display: inline-block;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     height: 65px;
     padding-left: 22px;
     padding-right: 26px;
@@ -694,7 +705,8 @@ font-weight:100;    font-size: 58px;
     padding: 0px 5.5%;
 }
 #services-for-home .header h2 {
-    font-size: 44px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 #services-for-home .slider-controls {
     display: -webkit-box;
@@ -767,6 +779,7 @@ font-weight:100;    font-size: 58px;
 }
 .special-offers-block {
     margin-bottom: 78px;
+    padding-top: 300px;
 }
 .special-offers-block img {
     max-width: 100%;
@@ -827,7 +840,7 @@ font-weight:100;    font-size: 58px;
     letter-spacing: 0.05em;
     position: absolute;
     bottom: 8.3%;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
 }
 .special-offers-block .content .special-offers-content-wrapper {
     height: 100%;
@@ -1076,13 +1089,13 @@ footer .very-footer > div.right {
 font-weight:100;    font-size: 2.55vw;
     text-align: center;
     font-weight: 100;
-    font-family: 'Gilroy Light';
+    font-family: 'TTNorms Light';
     margin-bottom: 1.05vw;
 }
 #address-checking-banner .content h3 {
     text-align: center;
     font-size: 1.45vw;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     margin-bottom: 3vw;
 }
 #address-checking-banner .content input[type="text"] {
@@ -1091,7 +1104,7 @@ font-weight:100;    font-size: 2.55vw;
     border: 1px solid #ffffff;
     margin-left: 1vw;
     margin-right: 1vw;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     font-weight: 200;
     font-size: 0.833333vw;
     padding-left: 1vw;
@@ -1127,7 +1140,7 @@ font-weight:100;    font-size: 2.55vw;
     border: 0;
     font-size: 0.93800vw;
     color: #ffffff;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     letter-spacing: 0.05000em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1190,12 +1203,12 @@ font-weight:100;    font-size: 2.55vw;
 }
 #plans-and-packets .tabs-and-navigation .left a {
     letter-spacing: 0.05em;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     margin-right: 1.5vw;
     color: #606060;
 }
 #plans-and-packets .tabs-and-navigation .left a:first-of-type {
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     color: #1c1c1c;
 }
 #plans-and-packets .tabs-and-navigation .right .control-arrows img {
@@ -1233,7 +1246,7 @@ font-weight:100;    font-size: 2.55vw;
 }
 #plans-and-packets .actions .action .action-header {
     font-size: 2.60400vw;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     color: #0072ce;
     margin-bottom: 1.4vw;
 }
@@ -1259,7 +1272,7 @@ font-weight:100;    font-size: 2.55vw;
 #plans-and-packets .actions .action .detail p {
     font-size: 0.99000vw;
     color: #0072ce;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     line-height: 1.66667;
     letter-spacing: 0.05000em;
 }
@@ -1276,7 +1289,7 @@ font-weight:100;    font-size: 2.55vw;
 #plans-and-packets .actions .action .white-space .avalible {
     font-size: 0.93800vw;
     color: #1c1c1c;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     letter-spacing: 0.05em;
 }
 #plans-and-packets .actions .action .white-space .avalible:first-of-type {
@@ -1292,7 +1305,7 @@ font-weight:100;    font-size: 2.55vw;
 #plans-and-packets .actions .action .white-space .price span.number {
     font-size: 2.86700vw;
     color: #0072ce;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     letter-spacing: 0.025em;
     font-weight: 100;
     margin-right: 0.3vw;
@@ -1317,7 +1330,7 @@ font-weight:100;    font-size: 2.55vw;
     color: #ffffff;
     font-size: 0.93800vw;
     letter-spacing: 0.02500em;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     background: #0072ce;
     margin-bottom: 0.6vw;
 }
@@ -1327,7 +1340,7 @@ font-weight:100;    font-size: 2.55vw;
 #plans-and-packets .actions .action .white-space .full-terms {
     font-size: 0.93800vw;
     letter-spacing: 0.02500em;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     color: #0072ce;
 }
 .special-offers-block.home-internet-special-offers {
@@ -1340,7 +1353,7 @@ font-weight:100;    font-size: 2.55vw;
 .special-offers-block.home-internet-special-offers h2 {
     font-size: 2.29200vw;
     letter-spacing: 0;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     padding: 0% 6%;
     margin-bottom: 2.4vw;
 }
@@ -1359,7 +1372,7 @@ font-weight:100;    font-size: 2.55vw;
     font-size: 0.93750vw;
     color: #ffffff;
     position: absolute;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     letter-spacing: 0.05em;
     left: 38%;
     bottom: 14%;
@@ -1422,7 +1435,7 @@ font-weight:100;    font-size: 2.55vw;
     height: 3.38500vw;
     background: #0072ce;
     color: #ffffff;
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     font-size: 0.93800vw;
     letter-spacing: 0.05em;
     clear: both;
@@ -1439,7 +1452,7 @@ font-weight:100;    font-size: 2.55vw;
 #complex-plans h2 {
     font-size:2.60417vw;
     letter-spacing:0;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     color:#1c1c1c;
     margin-bottom:1.2vw;
 }
@@ -1459,13 +1472,13 @@ font-weight:100;    font-size: 2.55vw;
 
 #complex-plans .tabs-and-navigation .left a {
     letter-spacing: 0.05em;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     margin-right: 1.5vw;
     color: #606060;
     font-size: 1.04200vw;
 }
 #complex-plans .tabs-and-navigation .left a:first-of-type {
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     color: #1c1c1c;
 }
 
@@ -1489,7 +1502,7 @@ font-weight:100;    font-size: 2.55vw;
     font-size:2.60417vw;
     letter-spacing:0.025em;
     color:#0072ce;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     font-weight:100;
     margin-bottom:0.9vw;
 }
@@ -1543,7 +1556,7 @@ font-weight:100;    font-size: 2.55vw;
     position:absolute;
     display:block;
     content:'+';
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     font-size:1.82292vw;
     left:initial;
     right:0;
@@ -1565,7 +1578,7 @@ font-weight:100;    font-size: 2.55vw;
 }
 
 #complex-plans .complex-plans-content .complex-plan .gray .complex-plan-visualization .option p {
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     line-height:1.88889;
     color:#0072ce;
     letter-spacing:0.05000em;
@@ -1594,14 +1607,14 @@ font-weight:100;    font-size: 2.55vw;
 
 #complex-plans .complex-plans-content .complex-plan .white .left .column .column-title  {
     font-size:0.93750vw;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     letter-spacing:0.05000em;
     margin-bottom:1.3vw;
 }
 
 #complex-plans .complex-plans-content .complex-plan .white .left .column .column-option {
     font-size:1.14583vw;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     letter-spacing:0;
     margin-bottom:0.6vw;
 }
@@ -1631,7 +1644,7 @@ font-weight:100;    font-size: 2.55vw;
 
 #complex-plans .complex-plans-content .complex-plan .white .right .column2 .price .number {
     font-size:2.86458vw;
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     letter-spacing:0.02500em;
     color:#0072ce;
 }
@@ -1650,7 +1663,7 @@ font-weight:100;    font-size: 2.55vw;
 
 #complex-plans .complex-plans-content .complex-plan .white .right .button {
     font-size:0.93750vw;
-    font-family:'GIlroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.05000em;
     display:-webkit-box;
     display:-ms-flexbox;
@@ -1690,7 +1703,7 @@ font-weight:100;    font-size: 2.55vw;
     text-align:center;
     font-size:1.04167vw;
     color:#606060;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.05000em;
 }
 
@@ -1855,7 +1868,7 @@ font-weight:100;    font-size: 2.55vw;
 #useful-information .links .column a {
     display:block;
     font-size:1.14583vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.025em;
     margin-bottom:0.9vw;
 }
@@ -1881,14 +1894,14 @@ font-weight:100;    font-size: 2.55vw;
 }
 
 #map-coverage-letai h2 {
-    font-family:'Gilroy Regular';
+    font-family:'TTNorms Regular';
     font-size:2.29219vw;
     margin-bottom:3.2vw;
 }
 
 #map-coverage-letai .legend {
     font-size:1.04219vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.05em;
     margin-bottom:1.4vw;
 }
@@ -1943,14 +1956,15 @@ font-weight:100;    font-size: 2.55vw;
 
 .button {
     position:relative;
-    border:2px solid #000000;
-    font-size:0.93750vw; 
+    border:1px solid #000000;
+    font-size:0.9vw;
     transition:0.1s;  
 }
 
 .button:hover, button:hover,.apply-plan:hover,.request-connection:hover,.slider-button:hover {
     /*transform:scale(1.01);*/
-    box-shadow: 0px 0px 17.4px 2.6px rgba(0, 114, 206, 0.5);
+    box-shadow: 0px 0px 17.4px 2.6px rgb(1, 113, 203, 0.3);
+    transition: .5s;
 }
 
 button,.apply-plan,.request-connection,.slider-button {
@@ -1974,7 +1988,7 @@ button,.apply-plan,.request-connection,.slider-button {
             transform:translateY(-50%);
     text-transform: uppercase;
     letter-spacing:0.05em;
-    font-family:'Gilroy SemiBold'; 
+    font-family:'TTNorms Medium';
     text-align:center;    
 }
 
@@ -2010,10 +2024,10 @@ header > div.right > .button {
 /*КНОПКА В СЕРВИСАХ*/
 
 #service-actions .service-action .button {
-    border-color:#c8c8c8;
-    width:11.04167vw;
+    border-color: #c8c8c8;
+    width: 13.04167vw;
+    padding: 1% 0;
 }
-
 
 
 /*УСЛУГИ ДЛЯ ДОМА КНОПКИ*/
@@ -2198,7 +2212,7 @@ body.news #news .top-row {
 body.news #news .dates-selector {
     font-size:0.93750vw;
     color:#606060;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     text-transform: uppercase;
 }
 
@@ -2328,13 +2342,14 @@ font-weight:100;        font-size: 40px;
         color: #606060;
         margin-bottom: 34px;
         line-height: 1.55;
+        max-width: 310px;
     }
     #service-actions .service-action .service-connect {
         border: 2px solid #c8c8c8;
         display: inline-block;
         font-size: 13px;
         text-transform: uppercase;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         height: 47px;
         padding-left: 15px;
         padding-right: 18px;
@@ -2423,7 +2438,7 @@ font-weight:100;        font-size: 40px;
         right: 4px;
         font-size: 13px;
         letter-spacing: -0.05em;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
     }
     .special-offers-block .special-offers-slider-controls img {
         width: 20px;
@@ -2644,7 +2659,7 @@ font-weight:100;        font-size: 29.60px;
         display: inline-block;
         font-size: 10px;
         text-transform: uppercase;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         height: 34.78px;
         padding-left: 11.10px;
         padding-right: 13.32px;
@@ -2733,7 +2748,7 @@ font-weight:100;        font-size: 29.60px;
         right: 2.96px;
         font-size: 9.62px;
         letter-spacing: -0.05em;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
     }
     .special-offers-block .special-offers-slider-controls img {
         width: 14.80px;
@@ -2935,7 +2950,7 @@ font-weight:100;        font-size: 29.60px;
 
 
     #top-menu-mobile-content .content h3 {
-        font-family:'Gilroy Regular';
+        font-family:'TTNorms Regular';
         font-size:5.33333vw;
         color:#1c1c1c;
         letter-spacing:0.02500em;
@@ -3160,7 +3175,7 @@ font-weight:100;        font-size: 29.60px;
     #main-slider-mobile ul li .content .slider-text h1 {
 font-weight:100;        line-height: 1.45;
         font-size: 7vw;
-        font-family: 'Gilroy Light';
+        font-family: 'TTNorms Light';
         font-weight: 100;
         letter-spacing: 0.03em;
         margin-bottom: 4.4vw;
@@ -3173,7 +3188,7 @@ font-weight:100;        line-height: 1.45;
     #main-slider-mobile ul li .content .slider-text p {
         font-weight: 100;
         margin-bottom: 14.8vw;
-        font-family: 'Gilroy Light';
+        font-family: 'TTNorms Light';
         font-weight: 100;
     }
 
@@ -3183,7 +3198,7 @@ font-weight:100;        line-height: 1.45;
         position: absolute;
         bottom: 7.3%;
         left: 11%;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         font-size: 4vw;
         letter-spacing: -0.06em;
     }
@@ -3233,7 +3248,7 @@ font-weight:100;        line-height: 1.45;
     #service-actions .service-action h3 {
         padding: 0;
         margin: 0;
-        font-family: 'Gilroy Regular';
+        font-family: 'TTNorms Regular';
         font-size: 6.65vw;
         margin-bottom: 3vw;
     }
@@ -3297,7 +3312,7 @@ font-weight:100;        line-height: 1.45;
     #services-for-home .slider-controls {
         letter-spacing: -0.11em;
         font-size: 4.2vw;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         margin-bottom: 4.5vw;
     }
     #services-for-home .slider-controls img {
@@ -3384,7 +3399,7 @@ font-weight:100;        line-height: 1.45;
         font-size: 2.8426vw;
         padding-top: 4.8%;
         padding-left: 5%;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
     }
     .special-offers-block .content .right {
         margin-top: 22vw;
@@ -3410,7 +3425,7 @@ font-weight:100;        line-height: 1.45;
         width: 49vw;
         height: 10vw;
         font-size: 2.8426vw;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         padding: 0;
         padding-left: 4.7%;
         padding-top: 4.6%;
@@ -3459,7 +3474,7 @@ font-weight:100;        line-height: 1.45;
         font-size: 7.35vw;
         border-top: 1px solid #d2d2d2;
         padding-top: 7.3%;
-        font-family: 'Gilroy Regular';
+        font-family: 'TTNorms Regular';
         margin-bottom: 9.6vw;
     }
     #news .news-container .news-item .date {
@@ -3485,7 +3500,7 @@ font-weight:100;        line-height: 1.45;
     }
     #news .news-container .news-item .details h4 {
         font-size: 5.1vw;
-        font-family: 'Gilroy Regular';
+        font-family: 'TTNorms Regular';
         font-weight: 100;
         margin-top: 0;
         margin-bottom: 4.8vw;
@@ -3496,7 +3511,7 @@ font-weight:100;        line-height: 1.45;
     #news .news-container .news-item .details a {
         color: #e74625;
         font-size: 3.64vw;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
     }
     #news .news-container .news-item {
         margin-bottom: 14vw;
@@ -3652,7 +3667,7 @@ font-weight:100;        font-size: 7.33300vw;
         font-size: 6.66700vw;
         line-height: 1.80000;
         letter-spacing: 0;
-        font-family: 'Gilroy Regular';
+        font-family: 'TTNorms Regular';
         font-weight: 100;
         margin-bottom: 2.4vw;
     }
@@ -3865,14 +3880,14 @@ font-weight:100;        font-size: 7.33300vw;
     #complex-plans h2 {
         font-size:6.66667vw;
         line-height:1.55455;
-        font-family:'Gilroy Regular';
+        font-family:'TTNorms Regular';
         letter-spacing:0.05000em;
         max-width:98%;
         margin-bottom:4.3vw;
     }
 
     #complex-plans .complex-plans-description {
-        font-family:'Gilroy Regular';
+        font-family:'TTNorms Regular';
         font-size:4.66667vw;
         line-height:1.49;
         letter-spacing:0.05000em;
@@ -3895,7 +3910,7 @@ font-weight:100;        font-size: 7.33300vw;
 
     #complex-plans .complex-plans-content .complex-plan .gray .complex-plan-title {
         font-size:6.66667vw;
-        font-family:'Gilroy Regular';
+        font-family:'TTNorms Regular';
         margin-bottom:3.1vw;
     }
 
@@ -4109,7 +4124,7 @@ font-weight:100;        font-size: 7.33300vw;
         font-size: 7.35vw;
         border-top: none;
         padding-top: 7.3%;
-        font-family: 'Gilroy Regular';
+        font-family: 'TTNorms Regular';
         margin-bottom: 9.6vw;
     }
 
@@ -4214,12 +4229,12 @@ font-weight:100;        font-size: 7.33300vw;
 }
 #additional-services .tabs-and-navigation .left a {
     letter-spacing: 0.05em;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     margin-right: 1.5vw;
     color: #606060;
 }
 #additional-services .tabs-and-navigation .left a:first-of-type {
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     color: #1c1c1c;
 }
 
@@ -4239,7 +4254,7 @@ font-weight:100;        font-size: 7.33300vw;
 
 #additional-services .content .tile h6 {
     font-size:1.04167vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     color:#1c1c1c;
     letter-spacing:0.05000em;
     margin-bottom:2.1vw;
@@ -4463,7 +4478,7 @@ font-weight:100;        font-size: 7.33300vw;
 
 .popup .modal h5 {
     font-size:0.93750vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     margin-bottom:1.45833vw;
 }
 
@@ -4477,7 +4492,7 @@ font-weight:100;        font-size: 7.33300vw;
 .popup .modal .popup-close {
     cursor:pointer;
     font-size:0.93750vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     position:absolute;
     right:2.81250vw;
     top:3.74167vw;
@@ -4499,7 +4514,7 @@ font-weight:100;        font-size: 7.33300vw;
 
     .popup .modal h5 {
         font-size: 2.7375vw;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         margin-bottom: 2.45833vw;
     }    
 
@@ -4511,7 +4526,7 @@ font-weight:100;        font-size: 7.33300vw;
     .popup .modal .popup-close {
         cursor: pointer;
         font-size: 0.93750vw;
-        font-family: 'Gilroy SemiBold';
+        font-family: 'TTNorms SemiBold';
         position: absolute;
         right: 5.8125vw;
         top: 5.74167vw;
@@ -4550,7 +4565,7 @@ font-weight:100;        font-size: 7.33300vw;
 .application form .content .form-block .caption {
     font-size:0.93750vw;
     color:#606060;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     margin-bottom:1.2vw;
 }
 
@@ -4674,7 +4689,7 @@ font-weight:100;        font-size: 7.33300vw;
     vertical-align:middle;
     font-size:0.93750vw;
     margin-left:0.83333vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
 }
 
 .map-page .header .right img {
@@ -4717,7 +4732,7 @@ font-weight:100;        font-size: 7.33300vw;
 
 .map-page .fourg-coverage .row .district {
     font-size:1.14531vw;
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     letter-spacing:0.02500em;
     cursor:pointer;
 }
@@ -4799,7 +4814,7 @@ font-weight:100;        font-size: 7.33300vw;
     .big-size-download-mobile * {
         vertical-align:middle;
         font-size:3.20000vw;
-        font-family:'Gilroy SemiBold';
+        font-family:'TTNorms SemiBold';
     }
 
     .big-size-download-mobile img {
@@ -4870,12 +4885,12 @@ font-weight:100;        font-size: 7.33300vw;
 }
 .offices .tabs-and-navigation .left a {
     letter-spacing: 0.05em;
-    font-family: 'Gilroy Regular';
+    font-family: 'TTNorms Regular';
     margin-right: 1.5vw;
     color: #606060;
 }
 .offices .tabs-and-navigation .left a:first-of-type {
-    font-family: 'Gilroy SemiBold';
+    font-family: 'TTNorms SemiBold';
     color: #1c1c1c;
 }
 .offices .tabs-and-navigation .right .control-arrows img {
@@ -4893,7 +4908,7 @@ font-weight:100;        font-size: 7.33300vw;
 
 .offices .select2-container .select2-selection--single .select2-selection__rendered {
     font-size:1.04167vw;
-    font-family: 'Gilroy SemiBold'
+    font-family: 'TTNorms SemiBold'
 }
 
 .offices .offices-table {
@@ -5115,7 +5130,7 @@ margin-right:3vw;
 }
 
 .ui-kit .buttons-and-links .content .black-links a.active {
-    font-family:'Gilroy SemiBold';
+    font-family:'TTNorms SemiBold';
     color:#1c1c1c;
 
 }

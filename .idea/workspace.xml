@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="" />
+    <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Black.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-BlackItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Bold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-BoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ExtraLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Heavy.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-HeavyItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Italic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Light.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-LightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Medium.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-MediumItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Regular.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-Thin.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/TT_Norms/TTNorms-ThinItalic.otf" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Black.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BlackItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Bold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ExtraBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Heavy.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Heavy.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-HeavyItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-HeavyItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Light.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-LightItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Medium.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-MediumItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Regular.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-RegularItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-RegularItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-SemiBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Thin.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ThinItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-ThinItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLight.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLightItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Gilroy-UltraLightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/control-arrow.png" afterPath="$PROJECT_DIR$/img/control-arrow.png" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,8 +75,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="781" column="23" lean-forward="false" selection-start-line="781" selection-start-column="23" selection-end-line="781" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="567" column="0" lean-forward="false" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Gilroy</find>
+      <find>main</find>
+      <find>подключить услуги</find>
+      <find>2%</find>
+      <find>услуги для дома</find>
+      <find>2% 0</find>
+      <find>./img/special-offers-image.jpg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TTNorms</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -43,7 +152,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tattelecom-main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tattelecom-main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tattelecom-main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tattelecom-main" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tattelecom-main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tattelecom-main" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tattelecom-main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tattelecom-main" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="TT_Norms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -52,6 +187,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,11 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518267411278</updated>
       <workItem from="1518267412744" duration="130000" />
+      <workItem from="1518427752709" duration="9504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130000" />
+    <option name="totallyTimeSpent" value="9634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -95,24 +232,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -125,5 +262,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="567" column="0" lean-forward="false" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="781" column="23" lean-forward="false" selection-start-line="781" selection-start-column="23" selection-end-line="781" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
