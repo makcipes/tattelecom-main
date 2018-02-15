@@ -826,7 +826,7 @@ font-weight:100;    font-size: 58px;
     color: #ffffff;
 }
 .special-offers-block .content h4 {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 100;
     max-width: 550px;
     margin-bottom: 19px;
@@ -871,7 +871,7 @@ font-weight:100;    font-size: 58px;
     margin-bottom: 90px;
 }
 #news h2 {
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 100;
     margin-bottom: 50px;
 }
@@ -959,13 +959,24 @@ font-weight:100;    font-size: 58px;
     margin-bottom:1.1vw;
 }
 #news .news-container .news-item .details p {
-    font-size: 1.14583vw;
-    color: #606060;
+    font-size: 1vw;
+
+    color: #303030;
+
     margin-bottom: 2.7vw;
 }
 #news .news-container .news-item .details a {
-    font-size: 0.93750vw;
-    color: #e74625;
+    font-size: 0.7vw;
+    color: #1c1c1c;
+    position: relative;
+}
+#news .news-container .news-item .details a:after{
+    border-bottom: 1px solid #1c1c1c;
+    content: "";
+    position: absolute;
+    width: 90%;
+    bottom: -5px;
+    left: 5%;
 }
 #news .button-centerer {
     text-align: center;
@@ -2084,6 +2095,7 @@ header > div.right > .button {
     width:15.72917vw;
     border-color:#c8c8c8;
     margin:0 auto;
+    border: 2px solid;
 }
 
 /*НОВОСТИ КНОПКА ЗАГРУЗИТЬ ЕЩЕ*/
