@@ -1,0 +1,93 @@
+/*home mobile*/
+@media all and (max-width:875px) {
+    #city-chooser-icon-mobile{
+        display: none;
+    }
+    #main-slider-mobile .control-arrows img {
+        width: 12vw;
+    }
+    #service-actions .border-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    #services-for-home .slider-controls img{
+        width: 12vw;
+    }
+    #services-for-home .header h2 {
+        font-size: 5.34vw;
+        margin-bottom: 7.3vw;
+    }
+    #service-actions .service-action {
+        height: 62.8vw;
+    }
+    #service-actions .service-action:nth-of-type(3){
+        border-bottom: 1px solid #d2d2d2
+    }
+    #service-actions{
+        margin-bottom: 0;
+    }
+    .special-offers-block{
+        padding-top: 0;
+    }
+    #services-for-home .button{
+
+        margin: 0 0 12.5vw 0;
+        width: 41.667vw;
+    }
+    .button-scaler{
+        padding-top: 29.6%;
+    }
+    .special-offers-block .content .left .button, .special-offers-block .content .right .button{
+        left: 0;
+        transform: none;
+    }
+    .special-offers-block .content .left{
+        height: 71.52vw;
+    }
+    .special-offers-block .content .right {
+        margin-top: 9vw;
+        position: relative;
+        height: 106vw;
+        padding-top: 30vw;
+    }
+    .special-offers-block .special-offers-slider-controls img {
+        width: 13vw;
+
+
+
+    }
+    .special-offers-block .special-offers-slider-controls.special-offers-slider-controls-mobile{
+        top: 10vw;
+        left: 7%;
+    }
+    #news h2{
+        font-size:  5.34vw;
+    }
+    #news .news-container .news-item .details a{
+        color: #1c1c1c;
+        font-size: 2.64vw;
+        font-family: 'TTNorms Regular';
+    }
+    #news .news-container .news-item{
+        display: none;
+    }
+    #news .news-container .news-item:nth-child(1){
+        display: block;
+    }
+    #news .news-container .news-item .details p {
+        display: block;
+    }
+    #news .news-container .news-item .details h4{
+        font-size: 6.1vw;
+    }
+    #news .news-container .news-item .details p{
+        font-size: 3.3vw;
+
+    }
+    }
+
+@media all and (max-width:405px) {
+    #service-actions .service-action {
+        height: 51.8vw;
+    }
+}
