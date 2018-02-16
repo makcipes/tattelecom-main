@@ -27,7 +27,8 @@
         margin-bottom: 0;
     }
     .special-offers-block{
-        padding-top: 0;
+        padding-top: 0!important;
+        margin-top: -30px;
     }
     #services-for-home .button{
 
@@ -89,5 +90,23 @@
 @media all and (max-width:405px) {
     #service-actions .service-action {
         height: 51.8vw;
+    }
+}
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+    .special-offers-block {
+        padding-top: 170px;
+    }
+
+    #service-actions .service-action {
+        margin-bottom: 53px;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    #service-actions .service-action .button {
+
+        position: absolute;;
+        bottom: 0;
+
     }
 }
