@@ -280,3 +280,11 @@ $(document).ready(function() {
         });
     });        
 });
+
+// tariff
+$(document).ready(function() {
+    $('.dropdwn .top').click(function () {
+        $(this).parent().find('table').toggle();
+        $(this).find('img').toggleClass('flip');
+    });
+});
