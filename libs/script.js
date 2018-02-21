@@ -288,3 +288,9 @@ $(document).ready(function() {
         $(this).find('img').toggleClass('flip');
     });
 });
+$(document).ready(function() {
+    $('.dropdwn .toggle').click(function () {
+        $(this).parent().find('p').toggle();
+        $(this).find('img').toggleClass('flip');
+    });
+});

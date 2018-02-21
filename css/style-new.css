@@ -311,3 +311,17 @@
 .nod a{
     color: #0072ce;
 }
+.nod .dropdwn{
+    padding: 15px 0;
+}
+.nod .dropdwn p{
+    display: none;
+}
+.nod .dropdwn .toggle{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.nod .main-inner{
+    padding-top: 0!important;
+}

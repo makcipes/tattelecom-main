@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/complementary-services.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/eset-nod32.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/long-distance.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tariff.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style-new.css" afterPath="$PROJECT_DIR$/css/style-new.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/eset-nod32.html" afterPath="$PROJECT_DIR$/eset-nod32.html" />
       <change beforePath="$PROJECT_DIR$/libs/script.js" afterPath="$PROJECT_DIR$/libs/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,21 +67,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style-new.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style-new.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style-new.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="739">
-                  <caret line="311" column="19" lean-forward="false" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+                <state relative-caret-position="838">
+                  <caret line="325" column="29" lean-forward="false" selection-start-line="325" selection-start-column="29" selection-end-line="325" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/libs/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="289" column="3" lean-forward="false" selection-start-line="289" selection-start-column="3" selection-end-line="289" selection-end-column="3" />
+                <state relative-caret-position="705">
+                  <caret line="292" column="32" lean-forward="false" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -99,8 +94,8 @@
           <file leaf-file-name="tariff.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tariff.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="399" column="24" lean-forward="true" selection-start-line="399" selection-start-column="24" selection-end-line="399" selection-end-column="24" />
+                <state relative-caret-position="442">
+                  <caret line="478" column="24" lean-forward="false" selection-start-line="478" selection-start-column="24" selection-end-line="478" selection-end-column="82" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -139,8 +134,8 @@
           <file leaf-file-name="long-distance.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/long-distance.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="626">
-                  <caret line="447" column="22" lean-forward="false" selection-start-line="447" selection-start-column="22" selection-end-line="447" selection-end-column="22" />
+                <state relative-caret-position="524">
+                  <caret line="449" column="72" lean-forward="false" selection-start-line="449" selection-start-column="72" selection-end-line="449" selection-end-column="72" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -159,8 +154,8 @@
           <file leaf-file-name="eset-nod32.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/eset-nod32.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="583">
-                  <caret line="450" column="17" lean-forward="false" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
+                <state relative-caret-position="533">
+                  <caret line="497" column="54" lean-forward="true" selection-start-line="497" selection-start-column="54" selection-end-line="497" selection-end-column="54" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -170,6 +165,10 @@
                     <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
@@ -219,14 +218,14 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/libs/script.js" />
         <option value="$PROJECT_DIR$/tariff.html" />
         <option value="$PROJECT_DIR$/complementary-services.html" />
         <option value="$PROJECT_DIR$/css/long-distance-comm.html" />
         <option value="$PROJECT_DIR$/long-distance-comm.html" />
         <option value="$PROJECT_DIR$/long-distance.html" />
-        <option value="$PROJECT_DIR$/css/style-new.css" />
+        <option value="$PROJECT_DIR$/libs/script.js" />
         <option value="$PROJECT_DIR$/eset-nod32.html" />
+        <option value="$PROJECT_DIR$/css/style-new.css" />
       </list>
     </option>
   </component>
@@ -344,7 +343,7 @@
       <workItem from="1518764989527" duration="15028000" />
       <workItem from="1519042038841" duration="5085000" />
       <workItem from="1519189772195" duration="19597000" />
-      <workItem from="1519216820882" duration="2479000" />
+      <workItem from="1519216820882" duration="4055000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -395,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518786035488</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tarif&#10;complementary0services&#10;long0distance&#10;eset-nod32">
+      <created>1519219384788</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1519219384788</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56126000" />
+    <option name="totallyTimeSpent" value="57702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,7 +454,8 @@
     <MESSAGE value="index mobile" />
     <MESSAGE value="img-fix" />
     <MESSAGE value="main finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="main finish" />
+    <MESSAGE value="tarif&#10;complementary0services&#10;long0distance&#10;eset-nod32" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarif&#10;complementary0services&#10;long0distance&#10;eset-nod32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,42 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/long-distance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="447" column="22" lean-forward="false" selection-start-line="447" selection-start-column="22" selection-end-line="447" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tariff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="399" column="24" lean-forward="true" selection-start-line="399" selection-start-column="24" selection-end-line="399" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/complementary-services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -875,26 +846,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-new.css">
+    <entry file="file://$PROJECT_DIR$/long-distance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="311" column="19" lean-forward="false" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="524">
+          <caret line="449" column="72" lean-forward="false" selection-start-line="449" selection-start-column="72" selection-end-line="449" selection-end-column="72" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/script.js">
+    <entry file="file://$PROJECT_DIR$/tariff.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="289" column="3" lean-forward="false" selection-start-line="289" selection-start-column="3" selection-end-line="289" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eset-nod32.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="450" column="17" lean-forward="false" selection-start-line="450" selection-start-column="17" selection-end-line="450" selection-end-column="17" />
+        <state relative-caret-position="442">
+          <caret line="478" column="24" lean-forward="false" selection-start-line="478" selection-start-column="24" selection-end-line="478" selection-end-column="82" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -906,6 +879,44 @@
             <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="292" column="32" lean-forward="false" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eset-nod32.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="497" column="54" lean-forward="true" selection-start-line="497" selection-start-column="54" selection-end-line="497" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="325" column="29" lean-forward="false" selection-start-line="325" selection-start-column="29" selection-end-line="325" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
