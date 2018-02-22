@@ -219,8 +219,10 @@
 }
 #base .main-inner .right{
     width: 100%;
-    padding: 2.6vw 0;
     margin-left: 20px;
+    margin-right: -7%;
+    padding: 2.6vw 7% 2.6vw 40px;
+}
 }
 #base .main-inner table{
     width: 100%;
@@ -390,4 +392,7 @@
 .roaming .right .dropdwn p{
     max-width: 35vw;
     line-height: 30px;
+}
+.roaming .right table{
+    width: 100%;
 }
