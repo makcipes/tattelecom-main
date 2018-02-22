@@ -314,14 +314,80 @@
 .nod .dropdwn{
     padding: 15px 0;
 }
-.nod .dropdwn p{
+.dropdwn p{
     display: none;
 }
-.nod .dropdwn .toggle{
+.dropdwn .toggle{
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
 }
 .nod .main-inner{
     padding-top: 0!important;
+}
+#base .instruction-row{
+    display: flex;
+    font-size: 1.24vw;
+}
+#base .instruction-row img{
+    width: 3.125vw;
+    margin-right: 1.525vw;
+    margin-bottom: 1.525vw;;
+
+}
+#base .instruction-row .size{
+    padding-top: 10px;
+}
+
+#base .serv-buttons a{
+    width: 24vw;
+}
+
+.roaming span{
+    color: #e74625;
+
+}
+.roaming .main-inner .left .about-roam{
+    background-color: #fef6f4!important;
+    padding: 2.6vw 40px 2.6vw 15%;
+    margin-left: -15%;
+    margin-bottom: 3.6vw;
+}
+.roaming .main-inner .left .roam-setings h3{
+
+}
+.roaming .main-inner .left .roam-setings span{
+    font-size: 5.208vw;
+    float: left;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+.roaming .main-inner .left .roam-setings .row{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+
+}
+.roaming .main-inner .left .roam-setings .row p{
+    padding-left: 20px;
+}
+.roaming .right .select2{
+    width: 100%!important;
+    margin-bottom: 20px;
+}
+.roaming .right a{
+    color: #0072ce;
+}
+.roaming .right h3{
+    padding-top: 2.86vw ;
+}
+.roaming .right .dropdwn .toggle{
+    padding: 1.2vw 0;
+
+}
+.roaming .right .dropdwn p{
+    max-width: 35vw;
+    line-height: 30px;
 }

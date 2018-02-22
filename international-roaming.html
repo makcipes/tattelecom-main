@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Таттелеком - Главная</title>
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/jquery-ui.min.js"></script>
+    <script src="./libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="./libs/select2/js/select2.full.min.js"></script>
+    <script src="./libs/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+    <script src="./libs/script.js"></script>
+    <!-- <link href="./libs/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="./libs/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-new.css">
+</head>
+<body>
+<div id="main-menu" style="display:none;">
+    <div id="menu-close-button">
+        <img src="./img/menu-close-icon.png">
+        <span>Закрыть</span>
+    </div>
+    <div class="content">
+        <div class="column">
+            <a class="column-header" href="#">
+                Услуги для дома
+            </a>
+            <a href="#">
+                Мобильная связь
+            </a>
+            <a href="#">
+                Пакеты услуг
+            </a>
+            <a href="#">
+                Интернет
+            </a>
+            <a href="#">
+                Телевидение
+            </a>
+            <a href="#">
+                Телефония
+            </a>
+        </div>
+        <div class="column">
+            <a class="column-header" href="#">
+                Услуги для бизнеса
+            </a>
+            <a href="#">
+                Фиксированная связь
+            </a>
+            <a href="#">
+                Мобильная связь
+            </a>
+            <a href="#">
+                Продукты и решения
+            </a>
+            <a href="#">
+                Помощь и обслуживание
+            </a>
+            <a href="#">
+                Видеонаблюдение
+            </a>
+        </div>
+        <div class="column">
+            <a class="column-header" href="#">
+                О компании
+            </a>
+            <a href="#">
+                Направления деятельности
+            </a>
+            <a href="#">
+                Структурные подразделения
+            </a>
+            <a href="#">
+                Акционерам и инвесторам
+            </a>
+            <a href="#">
+                Пресс-центр
+            </a>
+            <a href="#">
+                Контактная информация
+            </a>
+        </div>
+        <div class="column">
+            <a class="column-header" href="#">
+                Партнерам
+            </a>
+            <a href="#">
+                Конкурсы и закупки
+            </a>
+            <a href="#">
+                Операторам связи
+            </a>
+            <a href="#">
+                Дилерам
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div id="top-menu-mobile-content" style="display:none;">
+    <img src="./img/menu-close-icon-black.png" id="top-menu-mobile-close">
+    <div class="content">
+
+        <h3>Мобильная связь</h3>
+        <div>
+            <a href="#">Мобильная связь</a>
+            <a href="#">Точки продаж</a>
+            <a href="#">Карта покрытия</a>
+            <a href="#">Роуминг по России</a>
+            <a href="#">Международный роуминг</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+        <h3>Пакеты услуг</h3>
+        <div>
+            <a href="#">Мобильная связь</a>
+            <a href="#">Точки продаж</a>
+            <a href="#">Карта покрытия</a>
+            <a href="#">Роуминг по России</a>
+            <a href="#">Международный роуминг</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+        <h3>Интернет</h3>
+        <div>
+            <a href="#">Мобильная связь</a>
+            <a href="#">Точки продаж</a>
+            <a href="#">Карта покрытия</a>
+            <a href="#">Роуминг по России</a>
+            <a href="#">Международный роуминг</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+        <h3>Телевидение</h3>
+        <div>
+            <a href="#">Мобильная связь</a>
+            <a href="#">Точки продаж</a>
+            <a href="#">Карта покрытия</a>
+            <a href="#">Роуминг по России</a>
+            <a href="#">Международный роуминг</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+        <h3>Телефония</h3>
+        <div>
+            <a href="#">Мобильная связь</a>
+            <a href="#">Точки продаж</a>
+            <a href="#">Карта покрытия</a>
+            <a href="#">Роуминг по России</a>
+            <a href="#">Международный роуминг</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-wrapper" id="main-wrapper">
+    <div id="city-select-menu" style="display:none;">
+        <div class="header">
+            <div class="left">
+                Республика Татарстан
+            </div>
+            <div class="right">
+                <span>ЗАКРЫТЬ</span>
+                <img src="./img/menu-close-icon.png"/>
+            </div>
+        </div>
+        <div class="selection-block">
+            <div class="left">
+                <div class="column">
+                    <a href="#">Казань</a>
+                    <a href="#">Бугульма</a>
+                    <a href="#">Набережные Челны</a>
+                    <a href="#">Чистополь</a>
+                    <a href="#">Альметевск</a>
+                    <a href="#">Елабуга</a>
+                    <a href="#">Нижнекамск</a>
+                    <a href="#">Высокая Гора</a>
+                </div>
+                <div class="column">
+                    <a href="#">Агрыз</a>
+                    <a href="#">Азнакаево</a>
+                    <a href="#" class="item-hide">Боровое Матюшино</a>
+                    <a href="#">Зеленодольск</a>
+                    <a href="#">Куркачи</a>
+                    <a href="#">Менделеевск</a>
+                    <a href="#">Усады</a>
+                    <a href="#">Елабуга</a>
+                </div>
+                <div class="column">
+                    <a href="#">Актюбинский</a>
+                    <a href="#">Бавлы</a>
+                    <a href="#">Заинск</a>
+                    <a href="#">Камские поляны</a>
+                    <a href="#">Лениногорск</a>
+                    <a href="#">Нурлат</a>
+                    <a href="#">П. Джалиль</a>
+                </div>
+
+            </div>
+
+            <div class="right">
+                <div class="title">Другой населённый пункт</div>
+                <div class="select-container">
+                    <select id="district-selector" style="width: 100%">
+                        <option>Выбрать район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                        <option>Агрызский район</option>
+                    </select>
+                </div>
+                <div class="select-container">
+                    <select id="town-selector" style="width: 100%">
+                        <option>Выбрать населённый пункт</option>
+                        <option>Иртуши</option>
+                        <option>Казещиво</option>
+                        <option>Виляр</option>
+                        <option>Амирхан тукталышы</option>
+                        <option>Иртуши</option>
+                        <option>Казещиво</option>
+                        <option>Виляр</option>
+                        <option>Амирхан тукталышы</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <div class="button-scaler">
+                        <span class="text">ВЫБРАТЬ</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="left">
+            <img src="./img/menu-sandwich-desktop.png" alt="Меню" id="menu-sandwich">
+            <a href="#">УСЛУГИ ДЛЯ ДОМА</a>
+            <a href="#">УСЛУГИ ДЛЯ БИЗНЕСА</a>
+            <a href="#">О КОМПАНИИ</a>
+            <a href="#">ПАРТНЕРАМ</a>
+        </div>
+        <div class="right">
+            <a href="#">СЛУЖБА ПОДДЕРЖКИ</a>
+            <a href="#">ОФИСЫ ПРОДАЖ</a>
+            <a href="#" class="city-chooser">
+                <img src="./img/city-chooser-icon.png"  id="city-chooser-icon">
+                <span>КАЗАНЬ</span>
+                <img src="./img/city-chooser-arrow.png"  id="city-chooser-arrow">
+            </a>
+
+            <a href="#" class="dashboard">
+                <img src="./img/dashboard-icon.png" id="dashboard-icon">
+                <span>ЛИЧНЫЙ КАБИНЕТ</span>
+            </a>
+
+            <div class="button">
+                <a href="#" class="button-scaler">
+                    <span>ПОДКЛЮЧИТЬСЯ</span>
+                </a>
+            </div>
+
+
+        </div>
+    </header>
+
+    <div class="header-mobile" id="header-mobile">
+        <div class="left">
+            <a href="#" class="top-menu-opener">
+                <span>Услуги для дома</span>
+            </a>
+            <img src="./img/city-chooser-arrow.png"  id="link-chooser-arrow">
+        </div>
+
+        <div class="right">
+            <img src="./img/city-chooser-icon.png" id="city-chooser-icon-mobile">
+            <img src="./img/dashboard-mobile.png" id="dashboard-icon-mobile">
+        </div>
+    </div>
+
+    <div class="top-menu-mobile" id="top-menu-mobile">
+        <div class="left">
+            <img src="./img/logo.png" class="logo">
+        </div>
+
+        <div class="right">
+            <a href="#"><img src="./img/phone-icon.png" alt="Позвонить" id="phone-mobile"></a>
+            <img src="./img/menu-sandwich-desktop.png" alt="Меню" id="menu-sandwich-mobile">
+        </div>
+    </div>
+
+    <div class="top-menu">
+        <div class="left">
+            <img src="./img/logo.png" class="logo">
+        </div>
+
+        <div class="right">
+            <div class="dropdown">
+                <a href="#" id="celluar">Мобильная связь</a>
+                <div id="celluar-submenu" class="top-menu-submenu">
+                    <div class="links">
+                        <a href="#">celluar-submenu</a>
+                        <a href="#">celluar-submenu</a>
+                        <a href="#">celluar-submenu</a>
+                        <a href="#">celluar-submenuи</a>
+                        <a href="#">celluar-submenu</a>
+                        <a href="#">celluar-submenu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./complex.html" id="packages">Пакеты услуг</a>
+                <div id="celluar-submenu" class="top-menu-submenu">
+                    <div class="links">
+                        <a href="#">packages-submenu</a>
+                        <a href="#">packages-submenu</a>
+                        <a href="#">packages-submenu</a>
+                        <a href="#">packages-submenuи</a>
+                        <a href="#">packages-submenu</a>
+                        <a href="#">packages-submenu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./home-internet.html" id="internet">Интернет</a>
+                <div id="celluar-submenu" class="top-menu-submenu">
+                    <div class="links">
+                        <a href="#">internet-submenu</a>
+                        <a href="#">internet-submenu</a>
+                        <a href="#">internet-submenu</a>
+                        <a href="#">internet-submenuи</a>
+                        <a href="#">internet-submenu</a>
+                        <a href="#">internet-submenu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./television.html" id="television">Телевидение</a>
+                <div id="celluar-submenu" class="top-menu-submenu">
+                    <div class="links">
+                        <a href="#">television-submenu</a>
+                        <a href="#">television-submenu</a>
+                        <a href="#">television-submenu</a>
+                        <a href="#">television-submenuи</a>
+                        <a href="#">television-submenu</a>
+                        <a href="#">television-submenu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./telephony.html" id="telephony">Телефония</a>
+                <div id="celluar-submenu" class="top-menu-submenu">
+                    <div class="links">
+                        <a href="#">telephony-submenu</a>
+                        <a href="#">telephony-submenu</a>
+                        <a href="#">telephony-submenu</a>
+                        <a href="#">telephony-submenuи</a>
+                        <a href="#">telephony-submenu</a>
+                        <a href="#">telephony-submenu</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <a href="tel:8 (843) 222-22-22" class="phone">(843) 222-22-22</a>
+        </div>
+    </div>
+
+    <div id="base" class="comp-serv roaming">
+        <div class="top">
+            <div class="title">
+                <h2>Международний роумниг</h2>
+            </div>
+        </div>
+        <div class="serv-buttons">
+            <p><a href="#" class="apply ">Поездки по Росии</a></p>
+            <p><a href="#" class="apply transparent">Международний роуминг</a></p>
+        </div>
+        <div class="main-inner">
+            <div class="left">
+                <div class="about-roam">
+                <h3>О роуминге</h3>
+                <p><span>Международный роуминг</span> – это услуга, предоставляющая <br>
+                    возможность совершать исходящие вызовы (внутренние и <br>
+                    международные), принимать входящие вызовы, отправлять и <br>
+                    принимать SMS-сообщения, а также использовать интернет на <br>
+                    территории зарубежных государств. Даже находясь за <br>
+                    пределами Российской Федерации, абоненты «Летай» остаются <br>
+                    на связи! Международный роуминг «Летай» - это 207 стран, <br>
+                    наиболее выгодное для абонента предложение по популярным <br>
+                    туристическим направлениям (Абхазия, Турция, Египет, Италия, <br>
+                    Болгария, Армения, Израиль, Таиланд, Кипр, Китай, Казахстан, <br>
+                    США, Черногория, Доминиканская республика, Малайзия, <br>
+                    Пуэрто-Рико, Сербия, Швеция, Шри-Ланка). <br>
+                </p>
+                </div>
+                <div class="roam-setings">
+                    <h4>Для получения настроек абоненту мобильной связи «Летай» необходимо: </h4>
+                    <div class="row"><span>1.</span><p>Отправить «Любой текст» на номер 116111
+                        для получения настроек Internet и MMS; </p></div>
+                    <div class="row"><span>2.</span><p>Отправить текст «111» на 116111
+                        для получения настроек Internet;</p> </div>
+                    <div class="row"> <span>3.</span><p>Отправить текст «222» на 116111
+                        для получения настроек MMS.</p></div>
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="right">
+                <select class="sample-dropdown-select" style="width:25.00000vw">
+                    <option>Выбрать район</option>
+                    <option>Выбрать район</option>
+                    <option>Выбрать район</option>
+                    <option>Выбрать район</option>
+                    <option>Выбрать район</option>
+                </select>
+                <a href="">Выбрать на карте</a>
+                <h3>Вопрос/ответ</h3>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как звонить в международном роуминге?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как позвонить в Контакт-центр?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как получить автоматические настройки Интернет и MMS?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как пользоваться услугами роуминга?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как пополнить счет в поездке?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+                <div class="dropdwn">
+                    <div class="toggle">
+                        <h4>Как проверить баланс за границей?</h4>
+                        <img src="./img/map-districts-arrow-down.png" height="15">
+                    </div>
+                    <p>Находясь в международном роуминге, номера телефонов нужно
+                        набирать в международном формате: + код страны • код города •
+                        номер телефона. (Например: +37 707 1234567) Чтобы позвонить
+                        в Россию на мобильный телефон с федеральным номером,
+                        набираем: + 7 • код сети • номер телефона.
+                        (Например: +7 908 3210123)</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<footer>
+    <div class="age">
+        12+
+    </div>
+
+    <div class="footer-links">
+        <div>
+            <a href="#">Лицензии</a>
+            <a href="#">Документы</a>
+            <a href="#">Инструкции</a>
+            <a href="#">Обратная связь</a>
+        </div>
+
+        <div>
+            <a href="#">Акции</a>
+            <a href="#">Вопросы и ответы</a>
+            <a href="#">Служба поддержки</a>
+            <a href="#">Офисы продаж</a>
+        </div>
+        <div>
+            <a href="#">Услуги для дома</a>
+            <a href="#">Услуги для бизнеса</a>
+            <a href="#">О компании</a>
+            <a href="#">Партнерам</a>
+        </div>
+        <div class="socials">
+            <div>Мы в социальных сетях:</div>
+            <a href="#"><img src="img/socials/vk.png"></a>
+            <a href="#"><img src="img/socials/instagram.png"></a>
+            <a href="#"><img src="img/socials/facebook.png"></a>
+            <a href="#"><img src="img/socials/ok.png"></a>
+            <a href="#"><img src="img/socials/youtube.png"></a>
+        </div>
+        <div class="contact-center">
+            <div>Контакт-центр:</div>
+            <div class="number">(843) 222-22-22</div>
+        </div>
+    </div>
+
+    <div class="very-footer">
+        <div class="left">
+            <span>© <script>document.write((new Date()).getFullYear())</script> ПАО «Таттелеком»</span>
+            <a href="#">Использование материалов сайта</a>
+            <span>Сайт является СМИ. Эл №ФС77-66502 от 14.07.2016</span>
+        </div>
+
+        <div class="right">
+            <span><a href="http://hoso.pro/">Powered by Hoso Büro</a></span>
+        </div>
+    </div>
+</footer>
+<script>
+
+</script>
+</body>
+</html>
