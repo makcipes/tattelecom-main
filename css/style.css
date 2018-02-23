@@ -730,10 +730,10 @@ header > div.right > *.connect {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0px 5.5%;
+    padding: 0px 6%;
 }
 #services-for-home .services-container .services-for-home-service {
-    width: 31.39%;
+    width: 27.86vw;
     -webkit-box-shadow: 0px 0px 17.4px 2.6px rgba(51, 51, 51, 0.07);
     box-shadow: 0px 0px 17.4px 2.6px rgba(51, 51, 51, 0.07);
     margin-bottom: 90px;
@@ -797,7 +797,7 @@ header > div.right > *.connect {
 .special-offers-block .content .left {
     width: 536px;
     background: #e74625;
-    width: 31.5%;
+    width: 27.86vw;
     transition: .5s;
 }
 .special-offers-block .content .right {
@@ -812,11 +812,6 @@ header > div.right > *.connect {
     box-shadow: 0px 0px 17.4px 2.6px rgba(51, 51, 51, 0.07);
     padding-bottom: 0;
     transition:0.1s;
-}
-
-.special-offers-block .content > div:hover {
-    box-shadow: 0px 0px 17.4px 2.6px rgba(0, 114, 206, 0.5);
-
 }
 .special-offers-block .content .left {
     color: #ffffff;
@@ -1054,7 +1049,8 @@ footer .footer-links > div.contact-center div {
     margin-bottom: 37px;
 }
 footer .footer-links > div.contact-center .number {
-    font-size: 1.71875vw;
+    font-size: 1.61875vw;
+    margin-right: -50px;
 }
 footer .very-footer {
     height: 97px;
@@ -1389,8 +1385,8 @@ footer .very-footer > div.right {
     position: absolute;
     font-family: 'TTNorms SemiBold';
     letter-spacing: 0.05em;
-    left: 38%;
-    bottom: 14%;
+    left: 34%;
+    bottom: 5%;
 }
 .special-offers-block.home-internet-special-offers .content .right h4 {
     max-width: 95%;
@@ -1973,14 +1969,21 @@ footer .very-footer > div.right {
     position:relative;
     border:1px solid #000000;
     font-size:0.9vw;
-    transition:0.1s;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
 }
 
-.button:hover, button:hover,.apply-plan:hover,.request-connection:hover,.slider-button:hover {
-    /*transform:scale(1.01);*/
-    box-shadow: 0px 0px 17.4px 2.6px rgb(1, 113, 203, 0.3);
-    transition: .5s;
+.button:hover, button:hover {
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #000;
+    color: #fff;
 }
+.apply-plan:hover,.request-connection:hover{}
+.slider-button:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #000;
+    color: #fff;
+}
+
 
 button,.apply-plan,.request-connection,.slider-button {
     transition:0.2s;
@@ -2027,7 +2030,11 @@ header > div.right > .button {
     border-color:#ffffff;
     font-size:0.72917vw;
 }
-
+header > div.right > .button:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #fff;
+    color: #000;
+}
 /*КНОПКА НА ГЛАВНОМ СЛАЙДЕРЕ*/
 
 #main-slider li .slider-text .button {
@@ -2035,7 +2042,12 @@ header > div.right > .button {
     width:15.36458vw;
     border-color:#6d6d6e;
 }
+#main-slider li .slider-text .button:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
 
+    background-color: #6d6d6e;
+    color: #ffff;
+}
 /*КНОПКА В СЕРВИСАХ*/
 
 #service-actions .service-action .button {
@@ -2043,7 +2055,11 @@ header > div.right > .button {
     width: 13.04167vw;
     padding: 1% 0;
 }
-
+#service-actions .service-action .button:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #c8c8c8;
+    color: #ffff;
+}
 
 /*УСЛУГИ ДЛЯ ДОМА КНОПКИ*/
 
@@ -2055,9 +2071,17 @@ header > div.right > .button {
     margin:0 auto;
     margin-bottom:2.08333vw;
 }
-
+#services-for-home .button:hover{
+    opacity: .8;
+}
 /*СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ*/
-
+.special-offers-block .content .right .button {
+    width: 15.92708vw;
+    border-color: #FFFFFF;
+    bottom: 1.6vw;
+    position: absolute;
+    left: 1px;
+}
 .special-offers-block .content .left {
     height:100%;
 }
@@ -2073,7 +2097,11 @@ header > div.right > .button {
     bottom:1.6vw;
     position:absolute;
 }
-
+.special-offers-block .content .left .button:hover {
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #fff;
+    color: #000;
+}
 .special-offers-block .content .right .button {
     width:15.92708vw;
     border-color: #FFFFFF;
@@ -2081,7 +2109,11 @@ header > div.right > .button {
     position:absolute;
     left:1px;
 }
-
+.special-offers-block .content .right .button:hover {
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #fff;
+    color: #000!important;
+}
 .special-offers-block.home-internet-special-offers .content .right .button {
     color:#ffffff;
     border-color:#ffffff;
@@ -2147,7 +2179,9 @@ body.news #news .button:hover img {
 }
 
 @media (max-width: 875px) {
-
+    .special-offers-block .content .left .button, .special-offers-block .content .right .button {
+        width: 42vw!important;
+    }
     .special-offers-block .content > div:hover {
         transform:none;
     }
@@ -2180,26 +2214,23 @@ body.news #news .button:hover img {
     #main-slider-mobile .button {
         width:53.60000vw;
     }
-
-    #service-actions .service-action .button {
-        width:34vw;
-        font-size:2.84267vw;
-    }
+    #main-slider-mobile .button:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+    background-color: #fff;
+    color: #000;
+}
+}
 
     #services-for-home .control-arrows {
         font-size:4vw !important;
     }
 
-    #services-for-home .button {
-        width:35.60000vw;
-    }
+
 
     .special-offers-block .content .left .button, .special-offers-block .content .right .button{
         width: 14.58333vw;
-        bottom: 3.2vw;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 42vw;
+        bottom: 2.2vw;
+
     }
 
     #city-select-menu .button {
@@ -2389,7 +2420,7 @@ body.news #news .dates-selector * {
         margin-bottom: 11px;
     }
     #services-for-home .services-container .services-for-home-service > * {
-        padding: 0% 4%;
+        padding: 1% 4%;
     }
     #services-for-home h4 {
         font-size: 2.1vw;
@@ -2400,7 +2431,7 @@ body.news #news .dates-selector * {
         margin-bottom: 11px;
     }
     #services-for-home p {
-        font-size: 1.15vw;
+        font-size: 1.35vw;
         color: #606060;
         margin-bottom: 30px;
         line-height: 1.54;
@@ -3401,7 +3432,6 @@ font-weight:100;    font-size: 36px;
         line-height: 1.5;
     }
     .special-offers-block .content .left p {
-        height: 12vw;
         overflow: hidden;
         margin-bottom: 10.3vw;
     }
@@ -4336,7 +4366,7 @@ font-weight:100;    font-size: 36px;
 
     #additional-services .content .tile {
         width:78vw;
-        height:78vw;
+        height:90vw;
         padding:5vw;
     }
 
