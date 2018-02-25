@@ -65,6 +65,13 @@
     background: #e74625;
     margin-bottom: 0.6vw;
     text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
+}
+#base .apply:hover{
+    opacity: .8;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
 }
 #base .top .rbuttons .connect{
     border-color: #1c1c1c;
@@ -73,6 +80,10 @@
     font-size: 0.93800vw;
     margin-left: 3.1vw;
     text-transform: uppercase;
+}
+#base .transparent:hover{
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
 }
 #base .main-inner{
     display: flex;
@@ -352,9 +363,88 @@ color: #0072ce!important;
 .tarif-ttk  .top .rbuttons p{
     right: 1.483vw!important;
 }
+.phone-num > .top{
+    flex-direction: column!important;
+}
+.phone-num .top p{
+    font-size: 1.25vw;
+    line-height: normal;
+    padding: 3.3vw 0;
+    max-width: 540px;
+}
+.phone-num .top .rbuttons {
+    justify-content: center;
+}
+.phone-num .top .rbuttons a{
+    width: 18.2vw!important;
+}
+.phone-num .main-inner{
+    flex-direction: column;
+}
+
+.phone-num .main-inner .phone-row{
+    display: flex;
+    justify-content: center;
+}
+.phone-num .main-inner .phone-row .add-num object{
+    vertical-align: middle;
+    margin-left: 1vw;
+    width: 2vw;
+}
+.phone-num .main-inner .phone-row .add-num{
+    width:19.2vw;
+    color: #666;
+    border: 2px solid #666666;
+    font-weight: 900;
+    height: 5.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 2vw;
+}
+.phone-num .main-inner .phone-row :first-child{
+    margin-left: 0;
+}
+.phone-num .main-inner .phone-row :last-child{
+    margin-right: 0;
+}
+.phone-num .more{
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+color: #0072ce;
+    font-family: "TTNorms SemiBold";
+}
 /*home mobile*/
 @media all and (max-width:875px) {
+    .phone-num .more{
+        padding-top: 4vw;
+    }
+    .phone-num .main-inner .phone-row :first-child{
+        margin-left: 2vw;
+    }
+    .phone-num .main-inner .phone-row :last-child{
+        margin-right: 2vw;
+    }
+    .phone-num .main-inner .phone-row{
+        flex-wrap: wrap;
+    }
+    .phone-num .main-inner .phone-row .add-num {
+        width: 38vw;
+        font-size: 2.2vw;
+        height: 11.1vw;
+    }
+    .phone-num .top .rbuttons{
+        flex-wrap: wrap;
+    }
+    .phone-num .main-inner .phone-row .add-num object{
+        width: 4vw;
+        margin-left: 4vw;
 
+    }
+    .phone-num .top p{
+        font-size: 3vw;
+    }
     #city-chooser-icon-mobile {
         display: none;
     }
@@ -624,4 +714,50 @@ color: #0072ce!important;
         bottom: 0;
 
     }
+}
+#menu-1{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0072ce;
+}
+#menu-1 ul{
+    padding-top: 2.2vw;
+}
+#menu-1 li{
+    list-style-type: none;
+    padding-bottom: 1.8vw;
+}
+
+#menu-1 h3{
+    text-transform: uppercase;
+}
+#menu-1 .menu-column{
+    height: 15.625vw;
+    padding: 0 4vw;
+    color: #FFFFFF;
+
+}
+#menu-1 .cancel{
+    left: 50px;
+    top: 30px;
+    position: fixed;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1vw;
+
+}
+#menu-1 .cancel img{
+    width: 1.56vw;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.shadowed{
+    border: transparent!important;
+    -webkit-box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.07);
+    box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.07);
 }
