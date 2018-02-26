@@ -416,7 +416,7 @@ color: #0072ce!important;
     font-size: 1.25vw;
     line-height: normal;
     padding: 3.3vw 0;
-    max-width: 540px;
+    max-width: 42vw;
 }
 .phone-num .top .rbuttons {
     justify-content: center;
@@ -433,9 +433,6 @@ color: #0072ce!important;
     justify-content: center;
 }
 .phone-num .main-inner .phone-row .add-num object{
-    vertical-align: middle;
-    margin-left: 1vw;
-    width: 2vw;
 }
 .phone-num .main-inner .phone-row .add-num{
     width:19.2vw;
@@ -447,6 +444,31 @@ color: #0072ce!important;
     justify-content: center;
     align-items: center;
     margin: 1vw 2vw;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
+}
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+}
+.phone-num .main-inner .phone-row .add-num svg{
+
+    vertical-align: middle;
+    margin-left: 1vw;
+    width: 2vw;
+    fill: #e74625;
+}
+.phone-num .main-inner .phone-row .add-num:hover{
+    background-color: #e74625;
+    color: #fff;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
+}
+.phone-num .main-inner .phone-row .add-num:hover svg{
+
+    fill: #fff;
+    transition: .5s;
 }
 .phone-num .main-inner .phone-row :first-child{
     margin-left: 0;
