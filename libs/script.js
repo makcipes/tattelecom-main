@@ -299,3 +299,8 @@ $(document).ready(function() {
         $(this).parent().find('.tar-info').toggle();
     });
 });
+$(document).ready(function() {
+    $('#base .main-inner .left table tr td img').click(function () {
+        $(this).parent().find('.tar-info').toggle();
+    });
+});
