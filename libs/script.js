@@ -298,7 +298,11 @@ $(document).ready(function() {
     $('.tarif-ttk .main-inner .row .row_item h2').click(function () {
         $(this).parent().find('.tar-info').toggle();
     });
-});
+    $('.tarif-ttk .top .title .price').click(function () {
+        $('.title').find('.tar-info').toggle();
+    });
+
+    });
 $(document).ready(function() {
     $('#base .main-inner .left table tr td img').click(function () {
         $(this).parent().find('.tar-info').toggle();
