@@ -281,7 +281,7 @@ $(document).ready(function() {
     });        
 });
 
-// tariff
+
 $(document).ready(function() {
     $('.dropdwn .top').click(function () {
         $(this).parent().find('table').toggle();
@@ -302,5 +302,14 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#base .main-inner .left table tr td img').click(function () {
         $(this).parent().find('.tar-info').toggle();
+    });
+});
+
+$(document).ready(function() {
+    $('#open-map').click(function () {
+        $('#map-popup').toggle();
+    });
+    $('#map-popup .close').click(function () {
+        $('#map-popup').toggle();
     });
 });
