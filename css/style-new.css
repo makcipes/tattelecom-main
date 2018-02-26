@@ -360,6 +360,27 @@ color: #0072ce!important;
     padding-bottom: 3.1vw;
 
 }
+.tarif-ttk .main-inner .row .row_item{
+    position: relative;
+}
+.tarif-ttk .main-inner .row .row_item .tar-info{
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.17);
+    box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.17);
+    width: 23.4375vw;
+    text-align: left;
+    padding: 1.5vw;
+    right: -24vw;
+    top: 5vw;
+    display: none;
+    z-index: 1;
+
+}
+.tarif-ttk .main-inner .row .row_item .tar-info span{
+    color: #1c1c1c!important;
+    font-weight: 900;
+}
 .tarif-ttk  .top .rbuttons p{
     right: 1.483vw!important;
 }
@@ -415,6 +436,7 @@ color: #0072ce!important;
 color: #0072ce;
     font-family: "TTNorms SemiBold";
 }
+
 /*home mobile*/
 @media all and (max-width:875px) {
     .phone-num .more{

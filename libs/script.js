@@ -294,3 +294,8 @@ $(document).ready(function() {
         $(this).find('img').toggleClass('flip');
     });
 });
+$(document).ready(function() {
+    $('.tarif-ttk .main-inner .row .row_item h2').click(function () {
+        $(this).parent().find('.tar-info').toggle();
+    });
+});
