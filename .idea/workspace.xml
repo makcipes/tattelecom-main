@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/maestro-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/mastercard-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/mir-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/visa-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oplata.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style-new.css" afterPath="$PROJECT_DIR$/css/style-new.css" />
     </list>
@@ -232,8 +226,8 @@
           <file leaf-file-name="style-new.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style-new.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="747">
-                  <caret line="1060" column="17" lean-forward="false" selection-start-line="1060" selection-start-column="17" selection-end-line="1060" selection-end-column="17" />
+                <state relative-caret-position="274">
+                  <caret line="1054" column="25" lean-forward="true" selection-start-line="1054" selection-start-column="25" selection-end-line="1054" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -477,7 +471,7 @@
       <workItem from="1519467239951" duration="6729000" />
       <workItem from="1519591351464" duration="6903000" />
       <workItem from="1519622143062" duration="21811000" />
-      <workItem from="1519725489368" duration="9541000" />
+      <workItem from="1519725489368" duration="9905000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -640,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519732727061</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="phone-numbers fix">
+      <created>1519739371862</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1519739371862</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141505000" />
+    <option name="totallyTimeSpent" value="141869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,8 +658,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
@@ -1301,14 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-new.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oplata.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -1316,6 +1310,14 @@
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1054" column="25" lean-forward="true" selection-start-line="1054" selection-start-column="25" selection-end-line="1054" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
