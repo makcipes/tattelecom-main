@@ -525,8 +525,38 @@ color: #0072ce;
 
 /*home mobile*/
 @media all and (max-width:875px) {
+    #menu-1{
+        flex-direction: column;
+    }
+            #menu-1 .menu-column h3{
+                font-size: 4vw;
+            }
+    #menu-1 .menu-column{
+        height: auto!important;
+        width: 200px;
+        text-align: center;
+        padding-top: 2vh!important;
+    }
+    #menu-1 ul{
+        font-size: 3vw!important;
+
+    }
+    #menu-1 .cancel img{
+        width: 4.56vw!important;
+        margin-right: 5px!important;
+    }
+    #menu-1 .cancel{
+        font-size: 3vw!important;
+    }
+    #menu-1 .cancel{
+        left: 20px!important;
+        top: 20px!important;
+    }
     #map-popup img{
         height: 13vw;
+    }
+    .phone-num .top p{
+        max-width: none;
     }
     #map-popup .popup-inner {
 
@@ -856,7 +886,7 @@ color: #0072ce;
 #menu-1{
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     top: 0;
     display: flex;
     justify-content: center;
