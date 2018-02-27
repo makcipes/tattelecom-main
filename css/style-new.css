@@ -522,9 +522,24 @@ svg path {
 color: #0072ce;
     font-family: "TTNorms SemiBold";
 }
+.phone-num .hovered{
+    display: none;
+}
+.phone-num .add-num img{
+    margin-left: 20px!important;
+}
+.phone-num .add-num:hover .nothov{
+    display: none;
+}
+.phone-num .add-num:hover .hovered{
+    display: block!important;
+}
 
 /*home mobile*/
 @media all and (max-width:875px) {
+    .phone-num .add-num img {
+        width: 5vw;
+    }
     #menu-1{
         flex-direction: column;
     }
