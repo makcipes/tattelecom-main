@@ -685,7 +685,7 @@ color: #0072ce;
     .special-offers-block .content .right {
         margin-top: 9vw;
         position: relative;
-        height: 106vw;
+        height: 120vw;
         padding-top: 30vw;
     }
 
@@ -953,7 +953,7 @@ color: #0072ce;
     right: 0;
     bottom: 0;
     z-index: 999;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255 0.7);
     display: none;
 }
 #map-popup .popup-inner{
@@ -985,4 +985,83 @@ color: #0072ce;
 }
 .roaming .dropdwn .toggle h3{
     padding-bottom: 0!important;
+}
+.payed .top{
+    flex-direction: column;
+}
+.payed .row{
+    display: flex;
+    padding: 1.5vw 0;
+    align-items: center;
+}
+.payed .main-inner{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 66vw;
+    padding-top: 0!important;
+}
+.payed .apply{
+    background-color: #0072ce!important;
+    width: 18.9vw!important;
+}
+.payed .connect {
+    width: 18.9vw!important;
+}
+.payed .rbuttons{
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0;
+}
+.payed input[type="text"]{
+    color: #1c1c1c;
+    font-family: "TTNorms Medium";
+    width: 20.8vw;
+    height: 3.4vw;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-size: 0.8vw;
+}
+.payed input[type="button"]{
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0px;
+    width: 18.9vw;
+    height: 4.16vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.93800vw;
+    letter-spacing: 0.02500em;
+    font-family: 'TTNorms Regular';
+    background: #0072ce;
+
+    margin-bottom: 0.6vw;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+}
+
+.payed .main-inner a{
+    color: #0072ce!important;
+}
+.payed span{
+    color: #e74625;
+}
+.payed .row:last-child p{
+    padding: 0 0 0 2vw;
+}
+.payed .row:last-child img {
+    margin: 0 1vw;
+}
+.payed .row .row-item{
+    position: relative;
+}
+.payed label{
+    position: absolute;
+
 }
