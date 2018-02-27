@@ -719,6 +719,10 @@ color: #0072ce;
         font-size: 2.7vw
     }
 
+    #base .main-inner table img{
+        width: 3vw;
+    }
+
     #base .main-inner .left {
         width: 100vw;
         padding: 2.6vw 15px 7% 7%;
