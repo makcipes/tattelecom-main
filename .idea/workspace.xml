@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/shopping-cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/tarif-internet/internet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/tarif-internet/phone-call.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/tarif-internet/smartphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/tarif-internet/tv.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -390,6 +393,12 @@
             <path>
               <item name="ttk.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ttk.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="tarif-internet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttk.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ttk.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -472,7 +481,7 @@
       <workItem from="1519467239951" duration="6729000" />
       <workItem from="1519591351464" duration="6903000" />
       <workItem from="1519622143062" duration="21811000" />
-      <workItem from="1519725489368" duration="4701000" />
+      <workItem from="1519725489368" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -621,11 +630,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519732516527</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="phone-numbers fix">
+      <created>1519732560180</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1519732560180</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136665000" />
+    <option name="totallyTimeSpent" value="136832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
