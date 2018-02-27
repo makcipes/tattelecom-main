@@ -431,16 +431,20 @@ color: #0072ce!important;
     left: 27vw;
     top: 15.5vw;
 }
-.tarif-ttk .top .title .tar-info:before{
+.tarif-ttk .top .title .tar-info:before {
     position: absolute;
     content: "";
-    width: 0; height: 0;
-    position: absolute; right: 100%; top: calc(50% - 12px);
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: calc(50% - 12px);
     border-top: 12px solid transparent;
     border-right: 24px solid #fff;
     border-bottom: 12px solid transparent;
-    -webkit-filter: drop-shadow(-1px 0 1px rgba(100,0,0,0.18));
-    filter: drop-shadow(-1px 0px 1px rgba(100,0,0,0.18));
+    -webkit-filter: drop-shadow(-1px 0 1px rgba(100, 0, 0, 0.18));
+    filter: drop-shadow(-1px 0px 1px rgba(100, 0, 0, 0.18));
+}
 .tarif-ttk  .top .rbuttons p{
     right: 1.483vw!important;
 }
