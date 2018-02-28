@@ -4,6 +4,7 @@
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style-new.css" afterPath="$PROJECT_DIR$/css/style-new.css" />
+      <change beforePath="$PROJECT_DIR$/oplata.html" afterPath="$PROJECT_DIR$/oplata.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -115,9 +116,10 @@
           <file leaf-file-name="oplata.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/oplata.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
-                  <caret line="401" column="28" lean-forward="false" selection-start-line="401" selection-start-column="28" selection-end-line="401" selection-end-column="28" />
+                <state relative-caret-position="439">
+                  <caret line="400" column="59" lean-forward="false" selection-start-line="400" selection-start-column="59" selection-end-line="400" selection-end-column="59" />
                   <folding>
+                    <element signature="e#14916#14922#0" expanded="true" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
@@ -226,8 +228,8 @@
           <file leaf-file-name="style-new.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style-new.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="1054" column="25" lean-forward="true" selection-start-line="1054" selection-start-column="25" selection-end-line="1054" selection-end-column="25" />
+                <state relative-caret-position="510">
+                  <caret line="572" column="27" lean-forward="false" selection-start-line="572" selection-start-column="27" selection-end-line="572" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -266,7 +268,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>price</find>
       <find>300</find>
       <find>overall-slides-numbe</find>
       <find>1</find>
@@ -296,6 +297,7 @@
       <find>.svg</find>
       <find>log</find>
       <find>MEDIA</find>
+      <find>media</find>
     </findStrings>
     <replaceStrings>
       <replace>TTNorms</replace>
@@ -336,8 +338,8 @@
         <option value="$PROJECT_DIR$/tarif-internet.html" />
         <option value="$PROJECT_DIR$/tariff.html" />
         <option value="$PROJECT_DIR$/phone-numbers.html" />
-        <option value="$PROJECT_DIR$/oplata.html" />
         <option value="$PROJECT_DIR$/css/style-new.css" />
+        <option value="$PROJECT_DIR$/oplata.html" />
       </list>
     </option>
   </component>
@@ -471,7 +473,7 @@
       <workItem from="1519467239951" duration="6729000" />
       <workItem from="1519591351464" duration="6903000" />
       <workItem from="1519622143062" duration="21811000" />
-      <workItem from="1519725489368" duration="9905000" />
+      <workItem from="1519725489368" duration="12799000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -641,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519739371862</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="payed">
+      <created>1519739742255</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1519739742255</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141869000" />
+    <option name="totallyTimeSpent" value="144763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,7 +711,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="menu" />
     <MESSAGE value="phone-numbers fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone-numbers fix" />
+    <MESSAGE value="payed" />
+    <option name="LAST_COMMIT_MESSAGE" value="payed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,21 +1313,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oplata.html">
+    <entry file="file://$PROJECT_DIR$/css/style-new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="401" column="28" lean-forward="false" selection-start-line="401" selection-start-column="28" selection-end-line="401" selection-end-column="28" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="1411">
+          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-new.css">
+    <entry file="file://$PROJECT_DIR$/oplata.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1054" column="25" lean-forward="true" selection-start-line="1054" selection-start-column="25" selection-end-line="1054" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="439">
+          <caret line="400" column="59" lean-forward="false" selection-start-line="400" selection-start-column="59" selection-end-line="400" selection-end-column="59" />
+          <folding>
+            <element signature="e#14916#14922#0" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
