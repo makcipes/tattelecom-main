@@ -347,7 +347,7 @@ color: #0072ce!important;
 }
 .tarif-ttk .main-inner .row .row_item .title{
     margin-right: -14px;
-    width: 200px
+
 }
 .tarif-ttk .main-inner{
     display: block!important;
@@ -361,13 +361,25 @@ color: #0072ce!important;
 .tarif-ttk .main-inner .row{
     margin-right: -20px;
 }
+.tarif-ttk .main-inner .row .row_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarif-ttk .top .title .price{
+    position: relative;
+    margin-top: 2vw;
+    width: 20vw;
+}
 .tarif-ttk .main-inner .row .row_item> img{
-    height: 7.6vw;
-    padding-bottom: 3.1vw;
+    height: 4.6vw;
+
+    margin-bottom: 3.1vw;
 
 }
-.tarif-ttk .main-inner .row .row_item{
+.tarif-ttk .main-inner .row .row_item .title{
     position: relative;
+
 }
 .tarif-ttk .tar-info{
     position: absolute;
@@ -377,8 +389,9 @@ color: #0072ce!important;
     width: 23.4375vw;
     text-align: left;
     padding: 1.5vw;
-    right: -24vw;
-    top: 3.5vw;
+    height:  18vw;
+    top: -8.3vw;
+    left: calc(100% + 25px);
     display: none;
     z-index: 1;
 
@@ -423,13 +436,18 @@ color: #0072ce!important;
     color: #1c1c1c!important;
     font-weight: 100!important;
 }
+.tarif-ttk .top .title{
+    display: flex;
+    flex-direction: column;
+}
 .tarif-ttk .top .title .tar-info {
     font-size: 0.9vw;
-    font-size: 0.9vw;
+    top: -10vw;
+
+    height: 23vw;
     line-height: normal;
     z-index: 999;
-    left: 27vw;
-    top: 15.5vw;
+    left: calc(100% + 25px);
 }
 .tarif-ttk .top .title .tar-info:before {
     position: absolute;
@@ -537,6 +555,9 @@ color: #0072ce;
 
 /*home mobile*/
 @media all and (max-width:875px) {
+    .tarif-ttk .price{
+        width: 100%!important;
+    }
     .payed .row{
         flex-direction: column;
     }
@@ -574,6 +595,7 @@ color: #0072ce;
     }
     .payed .main-inner .row:last-child{
         align-items: flex-start;
+        flex-direction: column-reverse;
     }
     .payed .main-inner{
         width: unset!important;
@@ -583,10 +605,10 @@ color: #0072ce;
         align-items: center;
     }
     .payed .cards img{
-        width: 18vw;
+        width: 8vw;
     }
     .payed input[type="button"]{
-        font-size: 3vw;
+        font-size: 3vw!important;
     }
     .phone-num .add-num img {
         width: 5vw;
@@ -870,7 +892,7 @@ color: #0072ce;
         padding: 8vw 0;
     }
     .tarif-ttk .main-inner .row .row_item > img{
-        width: 17vw;
+        height: 18vw;
     }
     .comp-serv .main-inner .left,#base .instruction-row{
         font-size: 3.7vw;
@@ -1004,7 +1026,7 @@ color: #0072ce;
     right: 0;
     bottom: 0;
     z-index: 999;
-    background-color: rgba(255, 255, 255 0.7);
+    background:rgba(255,255,255, 0.7);
     display: none;
 }
 #map-popup .popup-inner{
@@ -1129,4 +1151,8 @@ color: #0072ce;
     top: 1.25vw;
     transition: .5s;
     font-size: .8vw;
+}
+.payed .cards{
+    display: flex;
+    align-items: center;
 }

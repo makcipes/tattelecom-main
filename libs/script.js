@@ -299,7 +299,7 @@ $(document).ready(function() {
         $(this).parent().find('.tar-info').toggle();
     });
     $('.tarif-ttk .top .title .price').click(function () {
-        $('.title').find('.tar-info').toggle();
+        $('.top .title').find('.tar-info').toggle();
     });
 
     });
