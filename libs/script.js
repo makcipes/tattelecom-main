@@ -316,4 +316,10 @@ $(document).ready(function() {
     $('#map-popup .close').click(function () {
         $('#map-popup').toggle();
     });
+    $('#connec-aida').click(function () {
+        $('.connect-popup').css("display", "flex");
+    })
+    $('.close').click(function () {
+        $('.connect-popup').hide();
+    })
 });
