@@ -556,6 +556,9 @@ color: #0072ce;
 
 /*home mobile*/
 @media all and (max-width:875px) {
+    .tv .main-inner .right-tv ul li img{
+        width: 40px!important;
+    }
     .tv .left-tv{
         width: 100% !important;
     }
@@ -1239,6 +1242,7 @@ color: #0072ce;
     justify-content: center!important;
     width: 85vw;
     max-height: 600px;
+    margin: 0 auto;
 
 }
 .tv .main-inner .left-tv{
@@ -1253,13 +1257,19 @@ color: #0072ce;
 }
 .tv .main-inner .right-tv ul{
     list-style-type: none;
+
 }
 .tv .main-inner .right-tv ul li img{
     vertical-align: middle;
-    padding-right: 20px;
-    width: 75px;
+    margin-right: 20px;
+    width: 70px;
+    max-height: 70px;
 }
 .tv .main-inner .right-tv ul li{
-    padding-top: 40px;
-
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: underline;
 }
