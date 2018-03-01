@@ -1198,6 +1198,7 @@ color: #0072ce;
     align-items: center;
     background-color: rgba(255,255,255, 0.7);
     display: none;
+    z-index: 999;
 }
 .connect-popup .popup-inner{
     background-color: #FFFFFF;

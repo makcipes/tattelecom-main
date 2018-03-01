@@ -318,8 +318,11 @@ $(document).ready(function() {
     });
     $('#connec-aida').click(function () {
         $('.connect-popup').css("display", "flex");
+        $('body').css("overflow", "hidden");
     })
     $('.close').click(function () {
         $('.connect-popup').hide();
+        $('body').css("overflow", "unset");
+
     })
 });
