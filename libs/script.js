@@ -312,11 +312,13 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#open-map').click(function () {
         $('#map-popup').toggle();
+        $('body').css("overflow", "hidden");
     });
     $('#map-popup .close').click(function () {
         $('#map-popup').toggle();
+        $('body').css("overflow", "unset");
     });
-    $('#connec-aida').click(function () {
+    $('#connec-a').click(function () {
         $('.connect-popup').css("display", "flex");
         $('body').css("overflow", "hidden");
     })

@@ -3239,8 +3239,7 @@ font-weight:100;    font-size: 36px;
     }
 
     #main-slider-mobile .control-arrows {
-        -webkit-filter: invert(100%);
-        filter: invert(100%);
+
         position: absolute;
         bottom: 7.3%;
         left: 11%;

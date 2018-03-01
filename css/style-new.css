@@ -421,12 +421,12 @@ color: #0072ce!important;
     padding: 1.5vw;
     right: -3vw;
 
-    top: -4vw;
+    top: -4.4vw;
     display: none;
     z-index: 1;
 }
 #base .main-inner .left .tar-info-open .tar-info-1{
-    right: -18vw!important;
+    right: -18.5vw!important;
 }
 .tarif-ttk .main-inner .row .row_item .tar-info span{
     color: #1c1c1c!important;
@@ -555,7 +555,17 @@ color: #0072ce;
 }
 
 /*home mobile*/
+
 @media all and (max-width:875px) {
+    .license .main-inner .instruction-row{
+        padding: 3.2vw 0;
+    }
+    #map-popup> .popup-inner> .top img{
+        height: 6vw;
+    }
+    #map-popup .popup-inner .top{
+        align-items: center;
+    }
     .tv .main-inner .right-tv ul li img{
         width: 40px!important;
     }
@@ -694,7 +704,7 @@ color: #0072ce;
     }
     #map-popup .popup-inner .top h3{
         font-size: 4.8vw!important;
-        padding-top: 8px;
+
     }
     #map-popup .popup-inner .top a{
         font-size: 2.7vw!important;
@@ -932,7 +942,7 @@ color: #0072ce;
         font-size: 3.7vw;
     }
     #base .instruction-row img{
-        width: 9vw;
+        width: 18vw;
     }
     .comp-serv .main-inner .right h6{
         font-size: 2.7vw;
@@ -1084,6 +1094,8 @@ color: #0072ce;
 #map-popup .popup-inner .top a{
     font-size: 1vw;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 #map-popup .popup-inner .top img{
     width: 2vw;
@@ -1272,4 +1284,36 @@ color: #0072ce;
     justify-content: flex-start;
     align-items: center;
     text-decoration: underline;
+}
+#base .main-inner .left .tar-info-open .tar-info:before{
+    position: absolute;
+
+    content: "";
+
+    width: 0;
+
+    height: 0;
+
+    position: absolute;
+
+    right: 100%;
+
+    top: calc(50% - 12px);
+
+    border-top: 12px solid transparent;
+
+    border-right: 24px solid #fff;
+
+    border-bottom: 12px solid transparent;
+
+    -webkit-filter: drop-shadow(-1px 0 1px rgba(100, 0, 0, 0.18));
+
+    filter: drop-shadow(-1px 0px 1px rgba(100, 0, 0, 0.18));
+}
+#base .top .rbuttons  .connect-popup p{
+    position: unset!important;
+    align-self: center;
+    padding-top: 2vw;
+    font-size: 1.25vw;
+    color: #1c1c1c;
 }
