@@ -294,37 +294,73 @@ $(document).ready(function() {
         $(this).find('img').toggleClass('flip');
     });
 });
-$(document).ready(function() {
-    $('.tarif-ttk .main-inner .row .row_item h2').click(function () {
-        $(this).parent().find('.tar-info').toggle();
-    });
-    $('.tarif-ttk .top .title .price').click(function () {
-        $('.top .title').find('.tar-info').toggle();
-    });
-
-    });
-$(document).ready(function() {
-    $('#base .main-inner .left table tr td img').click(function () {
-        $(this).parent().find('.tar-info').toggle();
-    });
-});
 
 $(document).ready(function() {
+    var doc_w = $(window).width();
+
+
     $('#open-map').click(function () {
         $('#map-popup').toggle();
         $('body').css("overflow", "hidden");
     });
+
+
     $('#map-popup .close').click(function () {
         $('#map-popup').toggle();
         $('body').css("overflow", "unset");
     });
+
+
     $('#connec-a').click(function () {
         $('.connect-popup').css("display", "flex");
         $('body').css("overflow", "hidden");
-    })
+    });
+
+
     $('.close').click(function () {
-        $('.connect-popup').hide();
+            $('body').css("overflow", "unset");
+            $('.connect-popup').hide();
+    });
+
+
+
+    $('.tarif-ttk .main-inner .row .row_item h2 img').click(function () {
+        if (doc_w > 850) {
+            $(this).parent().find('.tar-info').toggle();
+        }
+        else {
+            $(this).parent().find('.tar-info-mobile').css('display', 'flex');
+            $('body').css("overflow", "hidden");
+
+
+        }
+    });
+    $('.tarif-ttk .top .title .price img').click(function () {
+        if  (doc_w > 850) {
+            $('.top .title').find('.tar-info').toggle();
+        }
+        else {
+            $('.top .title').find('.tar-info-mobile').css('display', 'flex');
+            $('body').css("overflow", "hidden");
+
+
+        }
+    });
+    $('#base .main-inner .left table tr td .wrap img').click(function () {
+        if (doc_w > 850) {
+            $(this).find('.tar-info').toggle();
+        }
+        else {
+            $(this).parent().find('.tar-info-mobile').css('display', 'flex');
+            $('body').css("overflow", "hidden");
+
+
+        }
+    });
+    $('.close1').click(function () {
         $('body').css("overflow", "unset");
+        $('.tar-info-mobile').hide();
 
     })
 });
+

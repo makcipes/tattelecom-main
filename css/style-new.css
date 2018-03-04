@@ -215,7 +215,7 @@
 .long-dist .main-inner .right a{
     color: #0072ce;
 }
-.nod a{
+.instruction-title a{
     color: #0072ce;
 }
 .nod .dropdwn{
@@ -329,7 +329,8 @@
 .support .about-support{
     background-color: #f2f8fd;
     margin-left: -15%;
-    padding: 2.6vw 40px 2.6vw 15%
+    padding: 2.6vw 40px 2.6vw 15%;
+    margin-top: -2.6vw;
 
 }
 .tarif-ttk .apply{
@@ -381,6 +382,35 @@ color: #0072ce!important;
     position: relative;
 
 }
+.tar-info-mobile{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.51);
+    top: 0;
+    left: 0;
+
+}
+.tar-info-mobile .tar-info-mobile-inner span{
+    color: #1c1c1c!important;
+    font-family: 'TTNorms Medium' !important;
+}
+.tar-info-mobile .tar-info-mobile-inner{
+
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.17);
+    box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.17);
+    width: 80vw;
+    text-align: left;
+    padding: 4.5vw;
+    height: 40vh;
+    font-size: 4vw;
+    z-index: 999;
+
+}
 .tarif-ttk .tar-info{
     position: absolute;
     background-color: #fff;
@@ -394,6 +424,7 @@ color: #0072ce!important;
     left: calc(100% + 25px);
     display: none;
     z-index: 1;
+    font-size: 1.4vw
 
 }
 .tarif-ttk .main-inner .row .row_item .tar-info:before{
@@ -407,10 +438,17 @@ color: #0072ce!important;
     -webkit-filter: drop-shadow(-1px 0 1px rgba(100,0,0,0.18));
     filter: drop-shadow(-1px 0px 1px rgba(100,0,0,0.18));
 }
-#base .main-inner .left .tar-info-open{
+#base .main-inner .left .tar-info-open .wrap{
     position: relative;
+    padding-left: 10px;
+    z-index: 2;
 }
-#base .main-inner .left .tar-info-open .tar-info{
+#base .main-inner .left .tar-info-open{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#base .main-inner .left .tar-info-open .tar-info {
     display: none;
     position: absolute;
     background-color: #fff;
@@ -419,11 +457,10 @@ color: #0072ce!important;
     width: 23.4375vw;
     text-align: left;
     padding: 1.5vw;
-    right: -3vw;
-
-    top: -4.4vw;
-    display: none;
     z-index: 1;
+    left: 57px;
+    top: calc(50% - 6vw);
+    height: 12vw;
 }
 #base .main-inner .left .tar-info-open .tar-info-1{
     right: -18.5vw!important;
@@ -499,6 +536,7 @@ color: #0072ce!important;
     font-weight: 900;
     height: 5.2vw;
     display: flex;
+    font-size: 1.3vw;
     justify-content: center;
     align-items: center;
     margin: 1vw 2vw;
@@ -546,6 +584,7 @@ color: #0072ce;
 }
 .phone-num .add-num img{
     margin-left: 20px!important;
+    width: 2.7vw;
 }
 .phone-num .add-num:hover .nothov{
     display: none;
@@ -557,6 +596,20 @@ color: #0072ce;
 /*home mobile*/
 
 @media all and (max-width:875px) {
+    #base .top .rbuttons .connect-popup p{
+        text-align: center;
+        font-size: 4.4vw!important;
+    }
+    .tarif-ttk .main-inner .row .row_item .title{
+        z-index: 2;
+
+    }
+    .bonus .top .title{
+        width: 100% !important;
+    }
+    .bonus .main-inner .left p{
+        max-width: unset!important;
+    }
     .license .main-inner .instruction-row{
         padding: 3.2vw 0;
     }
@@ -577,6 +630,14 @@ color: #0072ce;
     }
     .connect-popup .top .close{
         font-size: 3vw;
+    }
+    .close1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .close1 img{
+        width: 4vw;
+        height: 100%;
     }
     .connect-popup .top h2{
         font-size: 4vw!important;
@@ -619,6 +680,7 @@ color: #0072ce;
         width: 82vw;
         height: 10vw;
         margin: 10px;
+        font-size: 3.8vw;
     }
     .payed label{
         top: 0;
@@ -862,7 +924,8 @@ color: #0072ce;
     #base .top .title {
         font-size: 6.6vw;
         line-height: normal;
-        width: 68%;
+        /*width: 68%; */
+        z-index: 1;
     }
 
     #base .top .title .price span {
@@ -923,9 +986,7 @@ color: #0072ce;
     #base .top .title span{
         font-size: 6.6vw;
     }
-    #base .top .title .price img{
-        display: none;
-    }
+
     .mobdn{
         display: none;}
     .tarif-ttk .main-inner .row{
@@ -942,7 +1003,7 @@ color: #0072ce;
         font-size: 3.7vw;
     }
     #base .instruction-row img{
-        width: 18vw;
+        width: 14vw;
     }
     .comp-serv .main-inner .right h6{
         font-size: 2.7vw;
@@ -1317,3 +1378,21 @@ color: #0072ce;
     font-size: 1.25vw;
     color: #1c1c1c;
 }
+.bonus  .main-inner {
+    display: flex!important;
+}
+.bonus  .main-inner  .left{
+    background-color: #f2f8fd!important;
+}
+
+.bonus .apply{
+    background-color: #0072ce!important;
+}
+.bonus .main-inner .left p{
+    padding: 2.6vw 0;
+    max-width: 31vw;
+}
+.bonus .main-inner .right .instruction-row{
+    padding-top: 2.8vw;
+}
+
