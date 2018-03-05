@@ -596,6 +596,12 @@ color: #0072ce;
 /*home mobile*/
 
 @media all and (max-width:875px) {
+    .docs .instruction-row {
+        padding: 2vw 0px!important;
+    }
+    .docs .instruction-row .size{
+        padding-top: 0!important;
+    }
     .actions h2{
         font-size: 7vw!important;
     }
@@ -603,6 +609,7 @@ color: #0072ce;
         font-size: 5vw!important;
         padding-bottom: 6vw!important;
     }
+
     #base .top .rbuttons .connect-popup p{
         text-align: center;
         font-size: 4.4vw!important;
@@ -1416,4 +1423,9 @@ color: #0072ce;
 }
 .docs .instruction-row{
     padding: 1vw 0px;
+    align-items: center;
+}
+.docs .instruction-row .wrapper{
+    width: 100%;
+
 }
