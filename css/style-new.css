@@ -1414,3 +1414,6 @@ color: #0072ce;
 .actions h3{
     font-size: 1.5vw
 }
+.docs .instruction-row{
+    padding: 1vw 0px;
+}
