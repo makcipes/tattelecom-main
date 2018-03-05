@@ -793,7 +793,6 @@ header > div.right > *.connect {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: -328px;
     height: 390px;
 }
 .special-offers-block .content .left {
@@ -858,9 +857,11 @@ header > div.right > *.connect {
 }
 .special-offers-slider-controls-mobile {
     display: none;
+
 }
 .special-offers-block .content .left {
     position: relative;
+
 }
 #news {
     padding: 0 5.5%;
@@ -2456,7 +2457,6 @@ body.news #news .dates-selector * {
         margin-bottom: 33px;
     }
     .special-offers-block .content {
-        margin-top: -239px;
         height: 276.9px;
     }
     .special-offers-block .content > div {

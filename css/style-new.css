@@ -596,6 +596,13 @@ color: #0072ce;
 /*home mobile*/
 
 @media all and (max-width:875px) {
+    .actions h2{
+        font-size: 7vw!important;
+    }
+    .actions h3{
+        font-size: 5vw!important;
+        padding-bottom: 6vw!important;
+    }
     #base .top .rbuttons .connect-popup p{
         text-align: center;
         font-size: 4.4vw!important;
@@ -859,6 +866,7 @@ color: #0072ce;
 
     .special-offers-block .content .left {
         height: 77.52vw;
+        margin-top: 9vw;
     }
 
     .special-offers-block .content .right {
@@ -1396,3 +1404,13 @@ color: #0072ce;
     padding-top: 2.8vw;
 }
 
+
+.actions h3, .actions h2{
+    padding: 1.5vw 5%;
+}
+.actions h2{
+    font-size: 2vw;
+}
+.actions h3{
+    font-size: 1.5vw
+}
