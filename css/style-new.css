@@ -584,7 +584,7 @@ color: #0072ce;
 }
 .phone-num .add-num img{
     margin-left: 20px!important;
-    width: 2.7vw;
+    width: 2.2vw;
 }
 .phone-num .add-num:hover .nothov{
     display: none;
@@ -596,6 +596,40 @@ color: #0072ce;
 /*home mobile*/
 
 @media all and (max-width:875px) {
+    .mobile-not-row{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .phone-number-popup-inner .row p {
+        font-size: 2.4vw!important;
+    }
+    .phone-number-popup-inner img{
+        width: 5vw;
+    }
+    .phone-number-popup-inner{
+        padding: 3vw!important;
+    }
+    .phone-number-popup-inner input[type='button']{
+        width: 78vw!important;
+    }
+    .phone-number-popup-inner input[type='checkbox']{
+        width: 10px!important;
+    }
+    .phone-number-popup-inner input{
+        width: 75vw!important;
+
+        height: 10vw!important;
+
+        margin: 10px!important;
+
+        font-size: 3.8vw!important;
+    }
+    .phone-number-popup-inner{
+        width: 90vw!important;
+    }
+    .phone-number-popup-inner h2{
+        font-size: 4vw!important;
+    }
     .docs .instruction-row {
         padding: 2vw 0px!important;
     }
@@ -696,12 +730,12 @@ color: #0072ce;
         margin: 10px;
         font-size: 3.8vw;
     }
-    .payed label{
+    label{
         top: 0;
         font-size: 2vw!important;
     }
 
-    .payed input:placeholder-shown + label {
+    input:placeholder-shown + label {
         font-size: 2.2vw!important;
         top: 6.25vw!important;
     }
@@ -1018,7 +1052,7 @@ color: #0072ce;
         font-size: 3.7vw;
     }
     #base .instruction-row img{
-        width: 14vw;
+        width: 10vw;
     }
     .comp-serv .main-inner .right h6{
         font-size: 2.7vw;
@@ -1256,7 +1290,7 @@ color: #0072ce;
 .payed .row .row-item{
     position: relative;
 }
-.payed label{
+ label{
     position: absolute;
     left: 15px;
     top: -1vw;
@@ -1266,8 +1300,7 @@ color: #0072ce;
 .payed label span{
     color: #e74625;
 }
-
-.payed input:placeholder-shown + label {
+input:placeholder-shown + label {
     position: absolute;
     left: 15px;
     top: 1.25vw;
@@ -1427,5 +1460,80 @@ color: #0072ce;
 }
 .docs .instruction-row .wrapper{
     width: 100%;
+
+}
+#phone-number-popup{
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.7);
+    z-index: 2;
+}
+.phone-number-popup-inner{
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 0px 9px 1.2px rgba(51, 51, 51, 0.17);
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+}
+.phone-number-popup-inner .row{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+    padding: 0 3vw;
+}
+.phone-number-popup-inner input[type="button"] {
+    margin: 1.5vw 3vw;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0px;
+    width: 20.9vw;
+    height: 3.6vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.93800vw;
+    letter-spacing: 0.02500em;
+    font-family: 'TTNorms Regular';
+    background: #0072ce;
+    margin-bottom: 0.6vw;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+
+}
+.phone-number-popup-inner .row p{
+    padding-left: 2vw;
+}
+.phone-number-popup-inner .row-item{
+    position: relative;
+}
+.phone-number-popup-inner .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+input[type="text"] {
+
+    color: #1c1c1c;
+    font-family: "TTNorms Medium";
+    width: 20.8vw;
+    height: 3.4vw;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-size: 0.8vw;
 
 }

@@ -361,6 +361,14 @@ $(document).ready(function() {
         $('body').css("overflow", "unset");
         $('.tar-info-mobile').hide();
 
-    })
+    });
+    $('.add-num').click(function () {
+        $('body').css('overflow' , 'hidden');
+        $('#phone-number-popup').css('display', 'flex');
+    });
+    $('.cancel-phone').click(function () {
+       $('body').css('overflow', 'unset');
+       $('#phone-number-popup').hide();
+    });
 });
 
