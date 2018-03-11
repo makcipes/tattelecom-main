@@ -851,9 +851,7 @@ color: #0072ce;
     .phone-num .top p{
         font-size: 3vw;
     }
-    #city-chooser-icon-mobile {
-        display: none;
-    }
+
 
     #main-slider-mobile .control-arrows img {
         width: 12vw;
