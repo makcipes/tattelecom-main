@@ -20,8 +20,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="5398" column="18" lean-forward="false" selection-start-line="5398" selection-start-column="18" selection-end-line="5398" selection-end-column="18" />
+            <state relative-caret-position="349">
+              <caret line="2413" column="26" lean-forward="true" selection-start-line="2413" selection-start-column="26" selection-end-line="2413" selection-end-column="26" />
               <folding>
                 <element signature="e#50658#50707#0" expanded="false" />
                 <element signature="e#50728#50777#0" expanded="false" />
@@ -365,7 +365,7 @@
       <workItem from="1520227393729" duration="8100000" />
       <workItem from="1520313144480" duration="8991000" />
       <workItem from="1520779137541" duration="62000" />
-      <workItem from="1520831990010" duration="3195000" />
+      <workItem from="1520831990010" duration="3395000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -626,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520837056731</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="8k upd">
+      <created>1520851822431</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520851822431</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212906000" />
+    <option name="totallyTimeSpent" value="213106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +703,8 @@
     <MESSAGE value="actions new" />
     <MESSAGE value="docs" />
     <MESSAGE value="city choser" />
-    <option name="LAST_COMMIT_MESSAGE" value="city choser" />
+    <MESSAGE value="8k upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="8k upd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="5398" column="18" lean-forward="false" selection-start-line="5398" selection-start-column="18" selection-end-line="5398" selection-end-column="18" />
+        <state relative-caret-position="349">
+          <caret line="2413" column="26" lean-forward="true" selection-start-line="2413" selection-start-column="26" selection-end-line="2413" selection-end-column="26" />
           <folding>
             <element signature="e#50658#50707#0" expanded="false" />
             <element signature="e#50728#50777#0" expanded="false" />
