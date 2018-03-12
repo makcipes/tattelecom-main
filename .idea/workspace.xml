@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/actions.html" afterPath="$PROJECT_DIR$/actions.html" />
-      <change beforePath="$PROJECT_DIR$/additional-services.html" afterPath="$PROJECT_DIR$/additional-services.html" />
-      <change beforePath="$PROJECT_DIR$/complementary-services.html" afterPath="$PROJECT_DIR$/complementary-services.html" />
-      <change beforePath="$PROJECT_DIR$/complex.html" afterPath="$PROJECT_DIR$/complex.html" />
-      <change beforePath="$PROJECT_DIR$/css/style-new.css" afterPath="$PROJECT_DIR$/css/style-new.css" />
-      <change beforePath="$PROJECT_DIR$/docs.html" afterPath="$PROJECT_DIR$/docs.html" />
-      <change beforePath="$PROJECT_DIR$/eset-nod32.html" afterPath="$PROJECT_DIR$/eset-nod32.html" />
-      <change beforePath="$PROJECT_DIR$/home-internet.html" afterPath="$PROJECT_DIR$/home-internet.html" />
-      <change beforePath="$PROJECT_DIR$/home-letai.html" afterPath="$PROJECT_DIR$/home-letai.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/instructions.html" afterPath="$PROJECT_DIR$/instructions.html" />
-      <change beforePath="$PROJECT_DIR$/international-roaming-2.html" afterPath="$PROJECT_DIR$/international-roaming-2.html" />
-      <change beforePath="$PROJECT_DIR$/international-roaming.html" afterPath="$PROJECT_DIR$/international-roaming.html" />
-      <change beforePath="$PROJECT_DIR$/license.html" afterPath="$PROJECT_DIR$/license.html" />
-      <change beforePath="$PROJECT_DIR$/long-distance.html" afterPath="$PROJECT_DIR$/long-distance.html" />
-      <change beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change beforePath="$PROJECT_DIR$/offices.html" afterPath="$PROJECT_DIR$/offices.html" />
-      <change beforePath="$PROJECT_DIR$/oplata.html" afterPath="$PROJECT_DIR$/oplata.html" />
-      <change beforePath="$PROJECT_DIR$/phone-numbers.html" afterPath="$PROJECT_DIR$/phone-numbers.html" />
-      <change beforePath="$PROJECT_DIR$/plan-pop-up.html" afterPath="$PROJECT_DIR$/plan-pop-up.html" />
-      <change beforePath="$PROJECT_DIR$/roaming.html" afterPath="$PROJECT_DIR$/roaming.html" />
-      <change beforePath="$PROJECT_DIR$/support.html" afterPath="$PROJECT_DIR$/support.html" />
-      <change beforePath="$PROJECT_DIR$/tarif-bonus.html" afterPath="$PROJECT_DIR$/tarif-bonus.html" />
-      <change beforePath="$PROJECT_DIR$/tarif-internet.html" afterPath="$PROJECT_DIR$/tarif-internet.html" />
-      <change beforePath="$PROJECT_DIR$/tariff.html" afterPath="$PROJECT_DIR$/tariff.html" />
-      <change beforePath="$PROJECT_DIR$/telephony.html" afterPath="$PROJECT_DIR$/telephony.html" />
-      <change beforePath="$PROJECT_DIR$/television.html" afterPath="$PROJECT_DIR$/television.html" />
-      <change beforePath="$PROJECT_DIR$/thankyou.html" afterPath="$PROJECT_DIR$/thankyou.html" />
-      <change beforePath="$PROJECT_DIR$/tv.html" afterPath="$PROJECT_DIR$/tv.html" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,13 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="phone-numbers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone-numbers.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="288" column="14" lean-forward="false" selection-start-line="288" selection-start-column="14" selection-end-line="288" selection-end-column="14" />
+            <state relative-caret-position="707">
+              <caret line="5398" column="18" lean-forward="false" selection-start-line="5398" selection-start-column="18" selection-end-line="5398" selection-end-column="18" />
               <folding>
-                <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#50658#50707#0" expanded="false" />
+                <element signature="e#50728#50777#0" expanded="false" />
+                <element signature="e#50804#50908#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -154,7 +127,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tv.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tv.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tv.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
@@ -227,7 +200,6 @@
         <option value="$PROJECT_DIR$/css/long-distance-comm.html" />
         <option value="$PROJECT_DIR$/long-distance-comm.html" />
         <option value="$PROJECT_DIR$/menu.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/libs/script.js" />
         <option value="$PROJECT_DIR$/tariff.html" />
         <option value="$PROJECT_DIR$/css/style-new.css" />
@@ -259,6 +231,7 @@
         <option value="$PROJECT_DIR$/television.html" />
         <option value="$PROJECT_DIR$/thankyou.html" />
         <option value="$PROJECT_DIR$/tv.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -339,26 +312,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.tariff.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="docs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/docs.html" />
-    <configuration name="instructions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/instructions.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/index.html" />
     <configuration name="oplata.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/oplata.html" />
     <configuration name="phone-numbers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/phone-numbers.html" />
     <configuration name="tariff.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ttk.github.io/tariff.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.instructions.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.docs.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.tariff.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.phone-numbers.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.oplata.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.docs.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tariff.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.phone-numbers.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.oplata.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tariff.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.oplata.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.phone-numbers.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.docs.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.instructions.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tariff.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.oplata.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.phone-numbers.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.docs.html" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +365,7 @@
       <workItem from="1520227393729" duration="8100000" />
       <workItem from="1520313144480" duration="8991000" />
       <workItem from="1520779137541" duration="62000" />
-      <workItem from="1520831990010" duration="1174000" />
+      <workItem from="1520831990010" duration="3195000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -646,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520256033380</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="city choser">
+      <created>1520837056731</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1520837056731</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210885000" />
+    <option name="totallyTimeSpent" value="212906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,8 +643,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3435195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3435195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
@@ -714,7 +695,8 @@
     <MESSAGE value="offices fix" />
     <MESSAGE value="actions new" />
     <MESSAGE value="docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs" />
+    <MESSAGE value="city choser" />
+    <option name="LAST_COMMIT_MESSAGE" value="city choser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,9 +732,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#50644#50693#0" expanded="false" />
-            <element signature="e#50714#50763#0" expanded="false" />
-            <element signature="e#50790#50894#0" expanded="false" />
+            <element signature="e#50658#50707#0" expanded="false" />
+            <element signature="e#50728#50777#0" expanded="false" />
+            <element signature="e#50804#50908#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -783,9 +765,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#50644#50693#0" expanded="false" />
-            <element signature="e#50714#50763#0" expanded="false" />
-            <element signature="e#50790#50894#0" expanded="false" />
+            <element signature="e#50658#50707#0" expanded="false" />
+            <element signature="e#50728#50777#0" expanded="false" />
+            <element signature="e#50804#50908#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -803,9 +785,9 @@
         <state relative-caret-position="35156">
           <caret line="2068" column="25" lean-forward="false" selection-start-line="2068" selection-start-column="25" selection-end-line="2068" selection-end-column="25" />
           <folding>
-            <element signature="e#50644#50693#0" expanded="false" />
-            <element signature="e#50714#50763#0" expanded="false" />
-            <element signature="e#50790#50894#0" expanded="false" />
+            <element signature="e#50658#50707#0" expanded="false" />
+            <element signature="e#50728#50777#0" expanded="false" />
+            <element signature="e#50804#50908#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -890,18 +872,6 @@
     <entry file="file://$PROJECT_DIR$/img/control-arrow-wt.svg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14501">
-          <caret line="853" column="0" lean-forward="false" selection-start-line="853" selection-start-column="0" selection-end-line="853" selection-end-column="0" />
-          <folding>
-            <element signature="e#50644#50693#0" expanded="false" />
-            <element signature="e#50714#50763#0" expanded="false" />
-            <element signature="e#50790#50894#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-new.css">
@@ -1214,6 +1184,18 @@
           <caret line="288" column="14" lean-forward="false" selection-start-line="288" selection-start-column="14" selection-end-line="288" selection-end-column="14" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="5398" column="18" lean-forward="false" selection-start-line="5398" selection-start-column="18" selection-end-line="5398" selection-end-column="18" />
+          <folding>
+            <element signature="e#50658#50707#0" expanded="false" />
+            <element signature="e#50728#50777#0" expanded="false" />
+            <element signature="e#50804#50908#0" expanded="false" />
           </folding>
         </state>
       </provider>
