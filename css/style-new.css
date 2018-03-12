@@ -1535,3 +1535,12 @@ input[type="text"] {
     font-size: 0.8vw;
 
 }
+
+.header-mobile .right span{
+    margin-right: 2vw;
+}
+.header-mobile .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
