@@ -1544,3 +1544,6 @@ input[type="text"] {
     justify-content: center;
     align-items: center;
 }
+.comp-serv .style2:after{
+    border-bottom: 1px solid #dde3fb!important;
+}
