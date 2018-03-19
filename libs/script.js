@@ -370,5 +370,18 @@ $(document).ready(function() {
        $('body').css('overflow', 'unset');
        $('#phone-number-popup').hide();
     });
+    // mobile menu2
+    $('.title-mobile-menu-top').click(function () {
+        if($(this).hasClass('opened')){
+            $(this).removeClass('opened');
+            $('.title-mobile-menu-inner').css({'opacity':'0' , 'height':'0'});
+            $('.title-mobile-menu-top img').removeClass('flip')
+        }else{
+            $(this).addClass('opened');
+            $('.title-mobile-menu-inner').css({'opacity':'1' , 'height':'100%'});
+            $('.title-mobile-menu-top img').addClass('flip')
+
+        }
+    })
 });
 
