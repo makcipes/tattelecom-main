@@ -1086,11 +1086,10 @@ input[type="text"] {
 /*mobile-menu2*/
 
 .title-mobile-menu .title-mobile-menu-inner{
-    opacity: 0;
-    height: 0;
+    display: none;
     padding-bottom: 2vh;
     transition: .1s;
-    display: flex;
+
     flex-direction: column;
 }
 .title-mobile-menu .title-mobile-menu-inner a{
@@ -1099,7 +1098,7 @@ input[type="text"] {
 
 }
 .title-mobile-menu .title-mobile-menu-top{
-
+    padding-bottom: 2vh;
 }
 .title-mobile-menu .title-mobile-menu-top img{
     width: 3vw;
