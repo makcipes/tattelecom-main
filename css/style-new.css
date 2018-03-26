@@ -518,6 +518,7 @@
     background-color: rgba(255, 255, 255, 0.51);
     top: 0;
     left: 0;
+    z-index: 999;
 
 }
 .tar-info-mobile .tar-info-mobile-inner span{
@@ -1099,6 +1100,7 @@ input[type="text"] {
 }
 .title-mobile-menu .title-mobile-menu-top{
     padding-bottom: 2vh;
+    transition: .5s;
 }
 .title-mobile-menu .title-mobile-menu-top img{
     width: 3vw;
@@ -1162,10 +1164,7 @@ input[type="text"] {
         text-align: center;
         font-size: 4.4vw!important;
     }
-    .tarif-ttk .main-inner .row .row_item .title{
-        z-index: 2;
 
-    }
     .bonus .top .title{
         width: 100% !important;
     }
@@ -1534,10 +1533,12 @@ input[type="text"] {
     }
     #base .top .rbuttons{
         padding-top: 9vw;
+        z-index: -1;
     }
     #base .main-inner{
         padding-top: 10vw!important;
     }
+
     #base .top .rbuttons p{
         font-size: 2.22vw!important;
         right: 14.483vw!important;

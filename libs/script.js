@@ -1,5 +1,6 @@
 var mainSlider = '';
 
+
 $(document).ready(function() {
 
     /*MAIN MENU*/
@@ -182,7 +183,7 @@ $(document).ready(function() {
     	$('#main-wrapper').css('overflow', 'hidden');
     });
 
-    
+
 
 
     $('#menu-sandwich-mobile').click(function() {
@@ -327,10 +328,14 @@ $(document).ready(function() {
     $('.tarif-ttk .main-inner .row .row_item h2 img').click(function () {
         if (doc_w > 850) {
             $(this).parent().find('.tar-info').toggle();
+            setTimeout(function () {
+                $('body').addClass('body-toggle');
+            },100)
         }
         else {
             $(this).parent().find('.tar-info-mobile').css('display', 'flex');
             $('body').css("overflow", "hidden");
+
 
 
         }
@@ -338,17 +343,30 @@ $(document).ready(function() {
     $('.tarif-ttk .top .title .price img').click(function () {
         if  (doc_w > 850) {
             $('.top .title').find('.tar-info').toggle();
+            setTimeout(function () {
+                $('body').addClass('body-toggle');
+            },100)
+
         }
         else {
             $('.top .title').find('.tar-info-mobile').css('display', 'flex');
             $('body').css("overflow", "hidden");
 
 
+
         }
+    });
+    $(document).on('click', '.body-toggle', function ()  {
+        $('.tar-info').hide();
+        $('body').removeClass('body-toggle');
+
     });
     $('#base .main-inner .left table tr td .wrap img').click(function () {
         if (doc_w > 850) {
             $(this).find('.tar-info').toggle();
+            setTimeout(function () {
+                $('body').addClass('body-toggle');
+            },100)
         }
         else {
             $(this).parent().find('.tar-info-mobile').css('display', 'flex');
@@ -362,6 +380,12 @@ $(document).ready(function() {
         $('.tar-info-mobile').hide();
 
     });
+
+    $('.tar-info-mobile').click(function () {
+        $('body').css("overflow", "unset");
+        $('.tar-info-mobile').hide();
+
+    });
     $('.add-num').click(function () {
         $('body').css('overflow' , 'hidden');
         $('#phone-number-popup').css('display', 'flex');
@@ -370,6 +394,7 @@ $(document).ready(function() {
        $('body').css('overflow', 'unset');
        $('#phone-number-popup').hide();
     });
+
     // mobile menu2
     $('.title-mobile-menu-top').click(function () {
         if($(this).hasClass('opened')){
@@ -383,5 +408,8 @@ $(document).ready(function() {
 
         }
     })
+
 });
+
+
 
