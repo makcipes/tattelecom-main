@@ -327,10 +327,15 @@ $(document).ready(function() {
 
     $('.tarif-ttk .main-inner .row .row_item h2 img').click(function () {
         if (doc_w > 850) {
-            $(this).parent().find('.tar-info').show(500);
+            $(this).parent().find('.tar-info').show(200);
+            if ($('body').hasClass('body-toggle')){
+            $(this).parent().find('.tar-info').hide();
+            $('body').removeClass('body-toggle');
+
+            }else{
             setTimeout(function () {
                 $('body').addClass('body-toggle');
-            },100)
+            },100)}
         }
         else {
             $(this).parent().find('.tar-info-mobile').css('display', 'flex');
@@ -343,9 +348,14 @@ $(document).ready(function() {
     $('.tarif-ttk .top .title .price img').click(function () {
         if  (doc_w > 850) {
             $('.top .title').find('.tar-info').show(200);
+            if ($('body').hasClass('body-toggle')){
+            $('.top .title').find('.tar-info').hide();
+            $('body').removeClass('body-toggle');
+
+            }else{
             setTimeout(function () {
                 $('body').addClass('body-toggle');
-            },100)
+            },100)}
 
         }
         else {
@@ -364,9 +374,14 @@ $(document).ready(function() {
     $('#base .main-inner .left table tr td .wrap img').click(function () {
         if (doc_w > 850) {
             $(this).find('.tar-info').show(200);
+            if ($('body').hasClass('body-toggle')){
+            $(this).find('.tar-info').hide();
+            $('body').removeClass('body-toggle');
+
+            }else{
             setTimeout(function () {
                 $('body').addClass('body-toggle');
-            },100)
+            },100)}
         }
         else {
             $(this).parent().find('.tar-info-mobile').css('display', 'flex');
