@@ -327,7 +327,7 @@ $(document).ready(function() {
 
     $('.tarif-ttk .main-inner .row .row_item h2 img').click(function () {
         if (doc_w > 850) {
-            $(this).parent().find('.tar-info').toggle();
+            $(this).parent().find('.tar-info').show(500);
             setTimeout(function () {
                 $('body').addClass('body-toggle');
             },100)
@@ -342,7 +342,7 @@ $(document).ready(function() {
     });
     $('.tarif-ttk .top .title .price img').click(function () {
         if  (doc_w > 850) {
-            $('.top .title').find('.tar-info').toggle();
+            $('.top .title').find('.tar-info').show(200);
             setTimeout(function () {
                 $('body').addClass('body-toggle');
             },100)
@@ -363,7 +363,7 @@ $(document).ready(function() {
     });
     $('#base .main-inner .left table tr td .wrap img').click(function () {
         if (doc_w > 850) {
-            $(this).find('.tar-info').toggle();
+            $(this).find('.tar-info').show(200);
             setTimeout(function () {
                 $('body').addClass('body-toggle');
             },100)
@@ -408,7 +408,12 @@ $(document).ready(function() {
 
         }
     })
-
+    $('.go_to').click( function(){
+        var scroll_el = $(this).attr('href');
+        if ($(scroll_el).length != 0) {
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top - 150 }, 500);       }
+        return false;
+    });
 });
 
 

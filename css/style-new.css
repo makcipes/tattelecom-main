@@ -41,7 +41,7 @@
     color: #b2b2b2;
     font-size: .873vw;
 }
-#base .apply{
+.apply{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -65,7 +65,7 @@
     transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
 
 }
-#base .apply:hover{
+.apply:hover{
     opacity: .8;
     transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
 
@@ -228,7 +228,7 @@
     box-shadow:0 0 10px rgba(0, 0, 0, 0.08)!important;
     margin: 0 20px!important;
 }
-.comp-serv .serv-buttons .transparent{
+.serv-buttons .transparent{
     width: 24vw!important;
     background: transparent!important;;
     color: #1c1c1c!important;
@@ -470,9 +470,15 @@
     color: #1c1c1c!important;
     font-weight: 900;
 }
-.tarif-ttk .top .title .tar-info span{
+.tarif-ttk .tar-info p{
+    font-size: 1.2vw;
+    padding: 10px 0;
+}
+.tarif-ttk .tar-info h4{
     color: #1c1c1c!important;
-    font-weight: 100!important;
+    font-family: "TTNorms Regular" !important;
+    font-size: 1.5vw!important;
+    font-weight: 100;
 }
 .tarif-ttk .top .title{
     display: flex;
@@ -480,9 +486,9 @@
 }
 .tarif-ttk .top .title .tar-info {
     font-size: 0.9vw;
-    top: -10vw;
-
-    height: 23vw;
+    flex-direction: column;
+    justify-content: center;
+    height: 19vw;
     line-height: normal;
     z-index: 999;
     left: calc(100% + 25px);
@@ -1107,8 +1113,54 @@ input[type="text"] {
     margin-left: 1vw;
     vertical-align: middle;
 }
-
+.actions .serv-buttons{
+    display: flex;
+    justify-content: center;
+}
+.actions .transparent{
+    width: 20vw!important;
+}
+.one-action-block .content > :last-child{
+    display: none;
+}
+.one-action-block .content > :first-child{
+    width: 100%;
+}
+.tabs-and-navigation{
+    margin-top: -2vw;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* font-size: 1.04200vw; */
+    font-size: 16px;
+    /* margin-bottom: 3.3vw; */
+}
+.tabs-and-navigation .left{
+    display: flex;
+    max-width: 80vw;
+    flex-wrap: wrap;
+}
+.tabs-and-navigation .left a{
+    letter-spacing: 0.05em;
+    margin-bottom: 2vh  ;
+    font-family: 'TTNorms Regular';
+    margin-right: 1.5vw;
+    color: #606060;
+    display: block;
+    font-size: 1vw;
+}
 @media all and (max-width:875px) {
+    .tabs-and-navigation{
+        display: none;
+    }
     .title-mobile-menu{
         display: block;
     }
@@ -1526,7 +1578,7 @@ input[type="text"] {
         flex-direction: row;
         padding: 8vw 0;
     }
-    #base .apply, #base .connect{
+    .apply, #base .connect{
         width: 33.4vw!important;
         height: 9.25vw!important;
         font-size: 2.22vw!important;
@@ -1595,7 +1647,7 @@ input[type="text"] {
     .roaming .right .dropdwn .toggle h4{
         width: 80%;
     }
-    #base .serv-buttons a{
+    .serv-buttons a{
         text-align: center;
     }
     .long-dist p{

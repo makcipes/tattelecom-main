@@ -2469,7 +2469,7 @@ body.news #news .dates-selector * {
         min-height: 66px;
     }
     .special-offers-block .content p {
-        font-size: 0.73vw;
+        font-size: 1vw;
         margin-bottom: 59px;
         line-height: 1.75;
     }
@@ -3601,10 +3601,12 @@ font-weight:100;    font-size: 36px;
         margin-bottom: 2.2vw;
     }
     footer .footer-links > div:nth-of-type(1) {
-        display: none;
+        width: 100%;
+        margin-bottom: 4.6vw;
     }
     footer .footer-links > div:nth-of-type(2) {
-        display: none;
+        width: 100%;
+        margin-bottom: 4.6vw;
     }
     footer .footer-links > div:nth-of-type(3) {
         width: 100%;
