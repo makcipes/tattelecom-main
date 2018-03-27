@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="058e00c2-d88c-4a7e-97d4-c575ca7d48a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/libs/script.js" afterPath="$PROJECT_DIR$/libs/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -564,7 +563,7 @@
       <workItem from="1521444731607" duration="961000" />
       <workItem from="1521452501817" duration="647000" />
       <workItem from="1522053209528" duration="704000" />
-      <workItem from="1522056105488" duration="17152000" />
+      <workItem from="1522056105488" duration="17164000" />
     </task>
     <task id="LOCAL-00001" summary="index fix">
       <created>1518442087866</created>
@@ -874,11 +873,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522131088803</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="popup-fix">
+      <created>1522131348692</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1522131348692</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248501000" />
+    <option name="totallyTimeSpent" value="248513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
